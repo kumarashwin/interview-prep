@@ -53,9 +53,9 @@
 
 >Au moins deux parties principaux dans l’application: le client et le serveur, chacun possèdent leur propre responsabilités.
 
->Sans statut: chaque requête d’un client vers un serveur doit contenir toute l’info nécessaire pour permettre au serveur de comprendre le demande sans devoir dépendre d’un context conservé sur le serveur.
+>Sans statut: chaque requête d’un client vers un serveur doit contenir toute l’info nécessaire pour permettre au serveur de comprendre la demande sans devoir dépendre d’un context conservé sur le serveur.
 
->Chaque réponse du serveur comprend de détails importants comme la date de création de la réponse, sa validité jusqu’à quel moment etc. Ainsi, cela evite les demandes inutiles du part du client et sert aussi à éviter la réutilisation des données expirées.
+>Chaque réponse du serveur comprend de détails importants comme la date de création de la réponse, sa validité jusqu’à quel moment etc. Ainsi, cela evite les demandes inutiles de la part du client et sert aussi à éviter la réutilisation des données expirées.
 
 >Une interface uniforme: Chaque ressource est uniquement identifiée; elles ont de représentation définies et on est capable de les manipuler que avec ces répresentations sans exiger la ressource même; chaque message est auto-descriptif et permet l’interpréteur à comprendre le message du contenu dedans;
 
@@ -79,7 +79,26 @@ OPTIONS: Un client peut utiliser celui-ci pour obtenir plus d’info sur les typ
 HEAD: Comme GET mais où le serveur répond que avec les en-têtes et non le contenu
 CONNECT: Pour évaluer qu’un lien peut être établi
 
-What kind of data is passed via HTTP Headers?
+**Les champs d'en-tête d'HTTP, à quoi servent-ils?**
+>Ils comprennent l'information importante à propos du demande ou de la réponse ou de l'objet envoyé dans le corps du message.
+
+>Il y a, par exemple, la date de traitement. Selon si c'est un demande ou une réponse, il y a d'autres champ d'en-têtes, tels que:
+
+>Quand c'est le serveur qui répond:
+Location: Pour ce quand il faut rediriger le client vers une autre page;
+Set-Cookie: Celui-ci, en faisant partie d'une réponse du serveur, contient une paire nom-valeur de l'information qui le client devrait garder;
+
+>Quand le client envoye une demande au serveur:
+Accept: Les *Content-Type* qui sont acceptable pour la réponse;
+Authorization: Comprend l'info pour autoriser l'utilisateur à accéder une ressource;
+User-Agent: Le navigateur utilisé par le client;
+Cookie: Le même *cookie* qui a été envoyé tout à l'heure par le serveur peut être inclut dans une demande du client par ce champ-ci;
+
+>Il y a des champs d'en-tête pour mieux définer le contenu. Par example:
+Content-Type: pour le type MIME des données transfertes;
+Content-Language: pour la language;
+Expires: pour établir le moment où la réponse devrait être considèrée obsolète;
+Last-Modified: Selon le serveur, le dernier moment quand les données étaient modifiées.
 
 **Qu'est-ce que c'est un type MIME?**
 >MIME ou ‘Internet media type’ ou bien ‘Content-type’, comme il s’appelle dans les en-tête de demandes d’HTTP, est un identifiant de format de données. Celui-ci est employé comme la façon uniforme pour classer le type de fichier sur l’internet.
@@ -88,11 +107,17 @@ What kind of data is passed via HTTP Headers?
 
 >Par example, un type MIME très utilisé est celui de application/javascript. Un autre encore plus important: text/html.
 
-How do cookies work? What is an example of Cookie abuse?
-What is 'ViewState' and 'SessionState'?
-'ViewState' is specific to a page in a session.
+**Comment fonctionne les *cookies*? Quelles sont les risques liées à leur utilisation?**
+>Un cookie n'est q'une petite quantité de données, stockées soit dans un fichier texte ou dans la mémoire du système ou dans la session de navigation. Celui-ci contient les données qui permettent à un serveur d'identifier des clients basé sur leur visites précédentes.
 
-'SessionState' is specific to user specific data that can be accessed across all pages in the web application.
+>Eux-mêmes, les cookies posent aucune risque étant donné qu'ils sont créés seulement pour le site Web qui les ont générés. Cela dit, il posent des risques sécuritaire s'ils sont compromis vu qu'il portent l'information privée d'un client. En plus, un imposteur peut utiliser un cookie compromis pour se déguiser comme un vrai client afin d'accéder à l'information secrète du côté du serveur.
+
+**Les termes 'ViewState' et 'SessionState' que signifient-ils?**
+>Les deux concernent le stockage de données de client à travers d'une session quand le client interagit avec une application Web.
+
+>'ViewState' fait référence aux données stockées dans une page de Web par exemple, dans un champ caché d'un formulaire. Celui-ci disparaît aussitôt qu'une action entraîne un changement de page.
+
+>'SessionState', par contre, fait référence aux données stockées tel qu'elles resteront accéssible à travers de la session au complet, peu importe le changement d'une page à l'autre.
 
 ##Back-end:
 How would you model user authorization, user profiles and permissions in a database?
@@ -231,7 +256,7 @@ What is a closure?
 A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
 
 Here is a simple example:
-
+```
 var globalVar = "xyz";
 
 (function outerFunc(outerArg) {
@@ -240,7 +265,7 @@ var globalVar = "xyz";
   (function innerFunc(innerArg) {
     var innerVar = 'b';
     
-    console.log(
+   console.log(
       "outerArg = " + outerArg + "\n" +
       "innerArg = " + innerArg + "\n" +
       "outerVar = " + outerVar + "\n" +
@@ -249,15 +274,15 @@ var globalVar = "xyz";
     
   })(456);
 })(123);
-
+```
 In the above example, variables from innerFunc, outerFunc, and the global namespace are all in scope in the innerFunc. The above code will therefore produce the following output:
-
+```
 outerArg = 123
 innerArg = 456
 outerVar = a
 innerVar = b
 globalVar = xyz
-
+```
 Why would we wrap the entire content of a JavaScript source file in a function block?
 What frameworks do you use?
 
