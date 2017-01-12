@@ -2,7 +2,7 @@
 {\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fmodern\fcharset0 CourierNewPS-BoldMT;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
 \f3\fmodern\fcharset0 CourierNewPS-BoldItalicMT;}
 {\colortbl;\red255\green255\blue255;}
-\vieww12960\viewh14500\viewkind0
+\vieww25400\viewh6120\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
@@ -64,29 +64,52 @@ Avez-vous des questions \'e0 nous poser ?\
 
 \f1\b Web:
 \f2\i\b0 \
-Explain the difference between stateless and stateful protocols.\
+Quelle est la difference entre les protocoles sans statut et ceux avec statut?\
 \pard\pardeftab720\li720\partightenfactor0
 
-\f0\i0\fs18 \cf0 A stateless communications protocol treats each request as an independent transaction. It therefore does not require the server to retain any session, identity, or status information spanning multiple requests from the same source. Similarly, the requestor can not rely on any such information being retained by the responder.\
+\f0\i0\fs18 \cf0 Un protocole de communication sans statut traite chaque demande comme une transaction independente. Donc, le serveur n\'92a pas besoin de conserver la session, l\'92identit\'e9 de l\'92utilisateur, ou l\'92information concernant la nature de multiples demandes de la m\'eame source. De la m\'eame fa\'e7on, le client ne peut pas compter sur le serveur pour garder de telle renseignments.\
 \
-In contrast, a stateful communications protocol is one in which the responder maintains \'93state\'94 information (session data, identity, status, etc.) across multiple requests from the same source.\
+Par contre, en ce qui concerne un protocole de communication avec statut, le serveur garde l\'92information du statut, c\'92est-\'e0-dire, de la session, de l\'92identit\'e9 de l\'92utilisateur, etc. au travers de multiples demandes de la m\'eame source.\
 \pard\pardeftab720\partightenfactor0
 
 \f1\b\fs22 \cf0 \
 \pard\pardeftab720\partightenfactor0
 
-\f2\i\b0 \cf0 Why is HTTP a stateless protocol?\
+\f2\i\b0 \cf0 Pourquoi l\'92HTTP est un protocole sans statut?\
 \pard\pardeftab720\li720\partightenfactor0
 
-\f0\i0\fs18 \cf0 HTTP is a stateless protocol because it does not require the server to retain information or status about each user for the duration of multiple requests.\
+\f0\i0\fs18 \cf0 Dans le cas d\'92HTTP, le server n\'92est pas exig\'e9 \'e0 garder l\'92information ou le statut \'e0 propos de chaque utilisateur au travers de multiples demandes.\
 \
-Some web servers implement states using different methods (using cookies, custom headers, hidden form fields etc.). However, in the very core of every web application everything relies on HTTP which is still a stateless protocol that is based on simple request/response paradigm.
+De diff\'e9rents serveurs utilisent diff\'e9rents fa\'e7ons pour instaurer le suivi de statut: des cookies, des en-t\'eates personnalis\'e9s, champs de formulaire cach\'e9s, etc. Cependant, au coeur m\'eame de chaque application Web, tout d\'e9pend sur l\'92HTTP qui est toujours un protocole simple; un syst\'e8me de demande-r\'e9ponse.
 \f1\b \
 \pard\pardeftab720\partightenfactor0
 
 \f2\i\b0\fs22 \cf0 \
-What does RESTful mean?\
+Qu\'92est-ce que c\'92est \'91REST\'92? Qu\'92est-ce que \'e7a signifie quand on dit qu\'92un service est \'91RESTful\'92?\
+\pard\pardeftab720\li720\partightenfactor0
+
+\f0\i0\fs18 \cf0 REST, un acronym pour \'91
+\f2\i Representational State Transfer
+\f0\i0 \'92, est un style d\'92architecture pour les syst\'e8me hyperm\'e9dia distribu\'e9s qui se trouve le plus souvent dans les application Web qui eux-m\'eames fonctionnent \'e0 travers d\'92HTTP.\
 \
+Certains caract\'e9risques d\'92un syst\'e8me qui instaure un architecture \'91REST\'92, c\'92est-\'e0-dire, un service RESTful:\
+\
+Au moins deux parties principaux dans l\'92application: le client et le serveur, chacun possedent leur propre r\'e9sponsabilit\'e9s.\
+\
+Sans statut: chaque requ\'eate d\'92un client vers un serveur doit contenir toute l\'92info n\'e9cessaire pour permettre au serveur de comprendre le demande sans devoir d\'e9pendre d\'92un context conserv\'e9 sur le serveur.\
+\
+Chaque r\'e9ponse du serveur comprend de d\'e9tails importants comme la date de cr\'e9ation de la r\'e9ponse, sa validit\'e9 jusqu\'92\'e0 quel moment etc. Ainsi, cela evite les demandes inutiles du part du client et sert aussi \'e0 \'e9viter la reutilisation des donn\'e9es expir\'e9es.\
+\
+Une interface uniforme: Chaque ressource est uniquement identifi\'e9e; elles ont de r\'e9presentation d\'e9finies et on est capable de les manipuler que avec ces r\'e9presentations sans exiger la ressource m\'eame; chaque message est auto-descriptif et permet l\'92interpr\'e9teur \'e0 comprendre le message du contenu dedans;\
+\
+Dans le cas de services Web, ceux qui s\'92appelent souvent de RESTful APIs:\
+\
+Les ressources sont accessible par un URL de base, e.g. http://api.site.com/resources/\
+Repr\'e9sentations des ressource par un type MIME qui communique au client comment traiter le contenu\
+Une interface uniforme qui utilisent les m\'e9thods HTTP: GET, PUT, POST, DELETE pour faciliter la lecture, la manipulation, la suppression etc. des donn\'e9es du c\'f4t\'e9 du serveur
+\f2\i\fs22 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
 What are the HTTP request types?\
 \pard\pardeftab720\li720\partightenfactor0
 
