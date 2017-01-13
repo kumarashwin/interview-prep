@@ -121,60 +121,62 @@ Last-Modified: Selon le serveur, le dernier moment quand les données étaient m
 
 ##Back-end:
 How would you model user authorization, user profiles and permissions in a database?
-Can you name some different text file formats for storing unicode characters?
-How would you store the value of a color in a database, as efficiently as possible?
-What are microservices?
-A microservice architecture means that your app is made up of lots of smaller, independent applications capable of running in their own memory space and scaling independently from each other across potentially many separate machines.
 
-What are monolithic architectures, then?
-A monolithic architecture means that your app is written as one cohesive unit of code whose components are designed to work together, sharing the same memory space and resources.
+**Quelle est la meilleure façon de stocker le valuer d'une couleur dans une base de données?**
+>Avec n'importe quelle application, comment vous stocker des données dans la base de données, peu importe le type, dépend grandement de comment vous entendez de les accéder et les utiliser et aussi sur la base de données.
 
-What are the pros and cons of monolithic vs microservice?
-Monolithic Pros:
-The major advantage of the monolithic architecture is that most apps typically have a large number of cross-cutting concerns, such as logging, rate limiting, and security features such audit trails and DOS protection.
+>Par exemple, d'une expériences personelle je peux vous dire que les dates-heures sont souvent stocker différemment dans les base de données populaires c'est-à-dire Oracle, MSSQL. J'ai pas d'expérience avec chacuc d'eux mais j'ai quand même trouver des solutions différentes quand je cherchais une solution pour les problèmes de mon propes project qui utilise MSSQL.
 
-When everything is running through the same app, it’s easy to hook up components to those cross-cutting concerns. There can also be performance advantages, since shared-memory access is faster than inter-process communication (IPC).
+>Bref, il y a pas une façon qui est généralement mieux que d'autres. Cela dit, je peux vous donner l'exemple de mon propre projet dans lequel j'utilise une méthode quand même très commune: je les stocke en format hexadécimale. C'était la solution la plus simple étant donné que les données sont utilisées au côté client par le JavaScript pour colorer les rectangles SVG du graphique.
 
-Monolithic Cons: 
-Monolithic app services tend to get tightly coupled and entangled as the application evolves, making it difficult to isolate services for purposes such as independent scaling or code maintainability.
+**Qu'est-ce que c'est les *microservices*?**
+>Quand votre application consiste des microservice, ça veut dire qu'elle consiste de nombreuses petites applications indépendentes, chacune capable de gérer leur propre stockage et de s'élargir indépendement à travers de multiple machines, si nécessaire.
 
-Monolithic architectures are also much harder to understand, because there may be dependencies, side-effects, and magic which are not obvious when you’re looking at a particular service or controller.
+**Qu'est-ce que c'est les applications *monolithes*, alors?**
+>Contrairement aux microservices, une application monolithe consiste d'une cohésive de code où les composants différents sont faits tel qu'ils fonctionnent unitairement en partageant les ressouces de mémoires et de traitement.
 
-Microservice Pros: 
-Microservice architectures are typically better organized, since each microservice has a very specific job, and is not concerned with the jobs of other components. Decoupled services are also easier to recompose and reconfigure to serve the purposes of different apps (for example, serving both the web clients and public API).
+**Que sont les avantages et les désavantages des deux?**
+Monolithic:
+>Avantages:
 
-They can also have performance advantages depending on how they’re organized because it’s possible to isolate hot services and scale them independent of the rest of the app.
+>* Meilleure gestion des ressouces qui sont communment partager dans une application: e.g. l'enregistrement cronologique, fonctions d'autorisation, de sécurité etc.
+* Meilleure performance dù au partage des ressources de mémoire et de traitement.
 
-Microservice Cons: 
-As you’re building a new microservice architecture, you’re likely to discover lots of cross-cutting concerns that you did not anticipate at design time. A monolithic app could establish shared magic helpers or middleware to handle such cross-cutting concerns without much effort.
+>Désavantages: 
 
-In a microservice architecture, you’ll either need to incur the overhead of separate modules for each cross-cutting concern, or encapsulate cross-cutting concerns in another service layer that all traffic gets routed through.
+>* Les applications monolithes ont une tendance à devenir étroitement jumelées et empêtrées au cours du temps. Cela rend difficile de isoler les services pour les faire meiux ou pour affectuer une amélioration de la base de code.
+* Pour les mêmes raisons, telles architectures sont plus difficiles à comprendre dû aux dépéndances cachées, effets secondaires, etc.
 
-Eventually, even monolthic architectures tend to route traffic through an outer service layer for cross-cutting concerns, but with a monolithic architecture, it’s possible to delay the cost of that work until the project is much more mature.
+Microservices:
+>Avantages:
+
+>* Celles-ci sont typiquement mieux organiser. Chaque service a sa propre application très précise et il se concerne pas avec les applications des autres composants.
+* Les services sont plus facilement à reutiliser dans d'autres application. e.g. une API peut être servir une application cellulaire, une application Web et également une application d'analyse des données, instaurée sur l'ordinateur d'un chercheur.
+* Elles pourraient entrainer à des améliorations de performances étant donné qu'elles sont plus facile à modifier individuellement.
+
+>Désavantages:
+
+>* Le développement d'une architecture microservices est plus couteux à l'égard du temps de développement parce qu'il y a souvent beaucoup de services qu'il faut développer tel qu'ils fonctionneraient indépendamment dans le futur. Par contre, cela pourrait être fait dans un mannière pas si rigoreuse dans le cas d'une application monolithe.
+* Il faut allouer plus de ressources vu qu'il y a plus de services à entretenir.
 
 ##Database/SQL:
-What's the difference between a left join and an inner join?
 What are NoSQL databases?
 What are the different types of NoSQL databases?
 Which are the most important features of NoSQL databases?
 Explain the difference between NoSQL v/s Relational database?
 When should I use a NoSQL database instead of a relational database?
-What are ACID properties?
-ACID stands for Atomicity, Consistency, Isolation and Durability.
+What's the difference between a left join and an inner join?
 
-Atomicity
-It means that either the record/document updates completely or does not update with respect to the operation.
-Either everything occurs or nothing occurs.
+**Le terme 'ACID', qu'est-ce ça signifie?**
+>ACID est un acronyme de *Atomicity, Consistency, Isolation, Durability*
 
-Consistency
-It implies that a transaction either creates a new and valid state of data, or, if any failure occurs, returns all data to its state before the transaction was started.
-If successful then valid data else revert back to original data.
+>Atomicity: En interagissant avec une base de données, le record est mise à jour complètement. S'il y a un problème, aucune mise à jour se déroule c'est-à-dire soit tout se passe soit rien ne se passe.
 
-Isolation
-Two or more simultaneous database queries should run independent of the other transactions.
+>Consistency: Une transaction créerait un nouveau état de données. S'il y a un échec pedant le processus, l'état est mis comme il était avant le commencement de la transaction. Donc, soit un réussite soit rien change.
 
-Durability
-Data once committed should be saved in memory so that even in case of system failure, data is not affected.
+>Isolation: Des requêtes à la base de données, soit une ou plus, devraient fonctionner indépendamment des autres processus.
+
+>Durability: Une fois enregistrées, même en cas d'échec du système, les données ne devraient pas être affectées.
 
 ##Pratique:
 Write your own linked list class without using the built-in classes.
@@ -462,3 +464,4 @@ Describe the project you've worked on?
 What did you do that worked out particularly well?
 What would you do differently?
 What industry sites and blogs do you read regularly?
+
