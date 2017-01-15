@@ -1,5 +1,3 @@
-
-
 #Questions générales
 
 ##Moi:
@@ -120,8 +118,6 @@ Last-Modified: Selon le serveur, le dernier moment quand les données étaient m
 >'SessionState', par contre, fait référence aux données stockées tel qu'elles resteront accéssible à travers de la session au complet, peu importe le changement d'une page à l'autre.
 
 ##Back-end:
-How would you model user authorization, user profiles and permissions in a database?
-
 **Quelle est la meilleure façon de stocker le valuer d'une couleur dans une base de données?**
 >Avec n'importe quelle application, comment vous stocker des données dans la base de données, peu importe le type, dépend grandement de comment vous entendez de les accéder et les utiliser et aussi sur la base de données.
 
@@ -136,6 +132,7 @@ How would you model user authorization, user profiles and permissions in a datab
 >Contrairement aux microservices, une application monolithe consiste d'une cohésive de code où les composants différents sont faits tel qu'ils fonctionnent unitairement en partageant les ressouces de mémoires et de traitement.
 
 **Que sont les avantages et les désavantages des deux?**
+
 Monolithic:
 >Avantages:
 
@@ -159,13 +156,32 @@ Microservices:
 >* Le développement d'une architecture microservices est plus couteux à l'égard du temps de développement parce qu'il y a souvent beaucoup de services qu'il faut développer tel qu'ils fonctionneraient indépendamment dans le futur. Par contre, cela pourrait être fait dans un mannière pas si rigoreuse dans le cas d'une application monolithe.
 * Il faut allouer plus de ressources vu qu'il y a plus de services à entretenir.
 
+How would you model user authorization, user profiles and permissions in a database?
+
 ##Database/SQL:
-What are NoSQL databases?
-What are the different types of NoSQL databases?
+**Qu'est-ce que c'est des base de données NoSQL? Que signifie ce terme-ci?**
+>Les bases de données NoSQL sont des systèmes; des architectures; des applications qui offerent une façon différente de les bases de données rélationelles utilisées traditionellement pour stocker des données qui se prètent pas facilement à la structure, ou dont les caractéristiques changent si rapidement que il y a pas facile de déterminer le schéma requis.
+
+>Ces applications comprennent des logiciels comme MongoDb (avec laquelle j'ai un peu d'expérience), CouchDb, DynamoDb d'Amazon etc. Le terme, 'NoSQL' et lui-même une abréviation pour 'Not only SQL'.
+
+>Telles bases de données sont évoluées en fonction des besoins de développement d'application moderne qui est caractérisé par de certains facteur clés :
+
+>- La génération rapide et massive des nouveaux types de données non-structurées, semi-structurées etc.
+- Applications qui font face à une base d'utilisateurs globale; qui fonctionnent tous les heures; qui devraient être accésible à une multitude d'appareils.
+- Étant donné que ce mêmes applications pourraient servir des millards d'utilisateurs les organisme ont besoin des architectures qui peuvent s'élargir rapidement et à meilleur marché.
+- Les base de données relationnelles se trouvent peu adaptées à plusieurs changements au schéma; ce qui arrive assez souvent en suivant des méthodes agile de dévéloppement.
+
+>Bref, on trouve que les bases de données rélationnelles n'était pas créés pour faire face aux défis actuels de l'immensité des données générées avec tellement de vitesse, ni à prendre avantage de la disponibilité des ressources de stockage et de traitement.
+
+**Que sont les différents types de base de données NoSQL?**
+>- Entrepôts clés-valuers : Celles-ci sont les plus simple car chaque object stocké consiste un attribut, c'est-à-dire la clé, jumelé avec le valeur associé. E.g. Riak, Berkeley DB.
+- Base de données documentaires : Chaque clé est jumelé avec une structure de données complexe qui s'appelle un document. Chaque document peut consister plusieurs différentes paires clés-valeur ou d'autres documents encapsulés.
+- Entrepôts graphiques : Pour stocker l'information à propos des réseaux de données, comme des liens sociaux.
+- Entrepôts larges colonnes : Comme CassandraDB et HBase qui sont utilisées pour des requêtes à traves d'une quantité massive de données et où les nommes et les formats des colonnes peuvent varier d'une ligne à l'autre.
+
 Which are the most important features of NoSQL databases?
 Explain the difference between NoSQL v/s Relational database?
 When should I use a NoSQL database instead of a relational database?
-What's the difference between a left join and an inner join?
 
 **Le terme 'ACID', qu'est-ce ça signifie?**
 >ACID est un acronyme de *Atomicity, Consistency, Isolation, Durability*
@@ -177,6 +193,8 @@ What's the difference between a left join and an inner join?
 >Isolation: Des requêtes à la base de données, soit une ou plus, devraient fonctionner indépendamment des autres processus.
 
 >Durability: Une fois enregistrées, même en cas d'échec du système, les données ne devraient pas être affectées.
+
+What's the difference between a left join and an inner join?
 
 ##Pratique:
 Write your own linked list class without using the built-in classes.
@@ -464,4 +482,3 @@ Describe the project you've worked on?
 What did you do that worked out particularly well?
 What would you do differently?
 What industry sites and blogs do you read regularly?
-
