@@ -2,8 +2,19 @@
 
 ##Moi:
 **Présentez-vous!**
+> C'est moi qui a créé le site web *jeveuxcodermaville.com* pour accompagner ma candidature et pour vous démontrer ma motivation pour ce poste.
+ 
+> Vous pouvez trouver des informations professionnelles et personnelles à mon propos dans les premiers billets de mon blogue, mais en résumé: J'ai développé un intérêt pour le français et ensuite j'ai été charmé par la ville de Montréal quand j'ai visité en 2013. Donc, je suis déménagé en 2014 pour m'installer à Montréal définitivement.
+
 **Quels sont vos objectifs?**
+> Mon but c'est d'obtenir un travail stable où je peux continuer à m'améliorer de façon professionnelle et personnelle; où je peux contribuer à quelque chose que je trouve important pour la société. Je cherche un travail qui peut me faire évoluer, et pas seulement sur le plan financier.
+
+**Quelles sont vos qualités?**
 **Quelles sont vos faiblesses?**
+> Premièrement, le français n'est pas ma langue maternelle. Cela dit, ça m'a pas empêché de travailler dans un centre d'appel, majoritairement en français. J'ai parfois besoin de plus de temps pour bien m'exprimer mais je comprends très bien quand on me parle.
+
+> Deuxièmement, j'ai encore du mal à estimer combien de temps va me prendre une tâche de programmation. Même ma copine est d'accord. En fait c'est une des raisons pour laquelle j'ai entrepris mon projet de programmation le plus important: une application de gestion du temps.
+
 **Qu’est-ce qui est le plus important dans votre vie ?**
 **Pourquoi avez-vous quitté votre emploi?**
 **Qu’avez-vous fait depuis votre dernier emploi ?**
@@ -12,14 +23,14 @@
 
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
-**Que connaissez-vous de notre entreprise ?**
+**Que connaissez-vous de notre organisation ?**
 **Pouvez-vous me préciser ce que vous avez compris du poste ?**
 **Qu’est ce qui selon vous va vous poser des difficultés à ce poste ?**
 **Vous n’avez aucune expérience dans ce domaine.**
 **Pourquoi devrait-on vous embaucher? Pourquoi vous et pas les autres candidats?**
 
 ##Travail:
-**Comment travaillez-vous en équipe ? Comment reglez-vous des problèmes avec un collègue**
+**Comment travaillez-vous en équipe ? Comment réglez-vous des problèmes avec un collègue? Donnez un exemple vécu.**
 **De quoi êtes-vous le plus fier (dernier emploi) ?**
 **De quoi êtes-vous le plus fier (carrière) ?**
 **Quand étiez-vous le plus satisfait dans votre emploi?**
@@ -27,8 +38,10 @@
 
 ##D'autres:
 **Disponibilité?**
-**Quel salaire recherchez-vous? Quelle rémunération attendez-vous?**
+> Comme je n'ai pas d'emploi présentement, je peux commencer d'ici quelques jours si vous en avez besoin. Toutefois, comme j'ai étudié presque sans arrêt pendant les 8 derniers mois, je préfèrerais une pause de quelques semaines avant le début de mon emploi, pour arriver frais et dispo. Comme je suis très enthousiaste à travailler dans votre équipe, je suis prêt à en discuter avec vous pour trouver une date qui soit optimale pour tous.  
+
 **Avez-vous des questions à nous poser ?**
+
 
 #Questions techniques
 
