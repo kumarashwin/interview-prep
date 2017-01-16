@@ -13,14 +13,13 @@
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
 **Que connaissez-vous de notre entreprise ?**
-**Pourquoi devrait-on vous embaucher?**
-**Pourquoi vous et pas les autres candidats?**
 **Pouvez-vous me préciser ce que vous avez compris du poste ?**
-**Vous n’avez aucune expérience à ce type de poste, comment comptez vous faire pour vous adapter ?**
 **Qu’est ce qui selon vous va vous poser des difficultés à ce poste ?**
+**Vous n’avez aucune expérience dans ce domaine.**
+**Pourquoi devrait-on vous embaucher? Pourquoi vous et pas les autres candidats?**
 
 ##Travail:
-**Comment travaillez-vous en équipe ? How do you resolve issues in a team?**
+**Comment travaillez-vous en équipe ? Comment reglez-vous des problèmes avec un collègue**
 **De quoi êtes-vous le plus fier (dernier emploi) ?**
 **De quoi êtes-vous le plus fier (carrière) ?**
 **Quand étiez-vous le plus satisfait dans votre emploi?**
@@ -179,9 +178,28 @@ How would you model user authorization, user profiles and permissions in a datab
 - Entrepôts graphiques : Pour stocker l'information à propos des réseaux de données, comme des liens sociaux.
 - Entrepôts larges colonnes : Comme CassandraDB et HBase qui sont utilisées pour des requêtes à traves d'une quantité massive de données et où les nommes et les formats des colonnes peuvent varier d'une ligne à l'autre.
 
-Which are the most important features of NoSQL databases?
-Explain the difference between NoSQL v/s Relational database?
-When should I use a NoSQL database instead of a relational database?
+**Quelles sont les avantages des bases de données NoSQL vis-à-vis des bases de données relationnelles? Quelles sont les désavantages?**
+
+>Avantanges:
+
+>- Quand il faut élargir l'application; disons pour la rendre capable de traiter des augmentations dans le nombre d'utilisateurs ou dans la quantité de stockage nécessaire, avec les RDBMS cela implique une amélioration du matériel de serveur. C'est souvent très couteux. Les RDBMS ne se prètent pas facilement non plus à notre âge actuel des services infonuagiques ou il est souvent plus économique de tirer des ressources de traitement et de stockage de multiples machines étalées à travers le monde. Par contre, les bases de données NoSQL sont faites avec cette réalité en tête et peuvent sembler plus économiques en comparaison.
+- Les mêmes avantages soulignées au point précédent montre que les bases de données sont mieux capable de gérér la revolution actuelle de *Big Data*.
+- Finalement, elles rendre capable à stocker et traiter les données non ou semi-structurées, une avantage qui, au moins en théorie, permet à développer des applications plus rapidement et avec clarité.
+
+>Désavantanges:
+
+>* Les bases de données relationnelles sont matures. Elles sont stables et offrent une grande variété de fonctionalité.
+* Il est plus facile de trouver des experts de RDBMS plutot que ceux de NoSQL. Voire, il est souvent plus économique à les employer aussi par rapport à l'autre.
+* La vaste majorité des outils de *Business Intelligence* c'est-à-dire intelligence d'affaires sont faits pour être utilisés avec des RDBMS.
+* Il y a une plus grande disponibilité du support technique et administratif par de grands compagnies comme Oracle et Microsoft pour leurs suites logiciels d'entreprise. Par contre, même si les bases de données NoSQL temoignent une bonne croissance d'adoption parmi des startups, elles comprennent quand même de technologies *open-source* sans garantie de support compréhensif.
+* Finalement, les bases de données relationnelles se prètent plus facilement à l'administration.
+
+**Dans quels scénarios utiliseriez-vous des base de données NoSQL plutot que celles qui sont relationnelles? Et l'inverse?**
+>Cela va dependre sur plusieurs facteurs:
+- Premièrement, est-ce que les données recueillies se prètent facilement à la structure ou non.
+- Est-ce qu'il y a une possibilité que l'application va temoigner constamment une croissance en terme de nombre des utilisateurs, disponiblité de stockage? Qu'il faudra augmenter la capacité assez tôt après qu'il est sortie et assez souvent ?
+- Est-ce que c'est nécessaire que l'application soit bâtie sur une fondation de technologie assez connue dans le marché, une histoire de stabilité avec une bonne disponibilité de soutien ?
+- Si vous utiliserez d'autre application parallèlement, disons comme un logiciel d'intelligence d'affaires, est-ce que cela va fonctionner avec votre choix final?
 
 **Le terme 'ACID', qu'est-ce ça signifie?**
 >ACID est un acronyme de *Atomicity, Consistency, Isolation, Durability*
@@ -202,7 +220,6 @@ Write your own hashtable class without using the built-in classes.
 Write a class that represents a binary tree. Write a method that traverses all nodes of the tree.
 Write a method to perform a binary search on an array without using built-in methods.
 Draw a database schema for a blog. Each user only has one blog, each blog has many categories, each category has many posts, and each post can belong to more than one category. Ask your applicant to write queries to pull specific information out.
-
 
 ##Algorithmes:
 How do you find out if a number is a power of 2? And how do you know if it is an odd number?
@@ -398,6 +415,30 @@ callAsyncFunction()
 What is the Event loop?
 Node js is a single threaded application but it support concurrency via concept of event and callbacks. As every API of Node js are asynchronous and being a single thread, it uses async function calls to maintain the concurrency. Node uses observer pattern. Node thread keeps an event loop and whenever any task get completed, it fires the corresponding event which signals the event listener function to get executed.
 
+##Testing/Debugging:
+Can you explain what Test-Driven Development is?
+How do you test for the quality of your code?
+How do you make sure that your code handles different kinds of error situations?
+How do you make sure that your code is both safe and fast?
+How do you find an error in a large file with code that you cannot step through?
+Can you tell me something that you have learned about testing and quality assurance in the last year?
+
+##SDLC:
+Can you describe the process you use for writing a piece of code, from requirements to delivery?
+What is important when updating a product that is in production and is being used?
+How can you make sure that changes in code will not affect any other parts of the product?
+How do you create technical documentation for your products?
+What measures have you taken to make your software products more easily maintainable?
+How can you debug a system in a production environment, while it is being used?
+Can you name reasons why maintenance of software is the biggest/most expensive part of an application’s life cycle?
+How can you make sure that team members know who changed what in a software project?
+
+##D'autres:
+Describe the project you've worked on?
+What did you do that worked out particularly well?
+What would you do differently?
+What industry sites and blogs do you read regularly?
+
 ##C#:
 What is the difference between a struct and a class?
 Class:
@@ -458,27 +499,3 @@ What is the difference between early-binding and late-binding?
 What is lazy-loading?
 
 ##ASP.NET
-
-##Testing/Debugging:
-Can you explain what Test-Driven Development is?
-How do you test for the quality of your code?
-How do you make sure that your code handles different kinds of error situations?
-How do you make sure that your code is both safe and fast?
-How do you find an error in a large file with code that you cannot step through?
-Can you tell me something that you have learned about testing and quality assurance in the last year?
-
-##SDLC:
-Can you describe the process you use for writing a piece of code, from requirements to delivery?
-What is important when updating a product that is in production and is being used?
-How can you make sure that changes in code will not affect any other parts of the product?
-How do you create technical documentation for your products?
-What measures have you taken to make your software products more easily maintainable?
-How can you debug a system in a production environment, while it is being used?
-Can you name reasons why maintenance of software is the biggest/most expensive part of an application’s life cycle?
-How can you make sure that team members know who changed what in a software project?
-
-##D'autres:
-Describe the project you've worked on?
-What did you do that worked out particularly well?
-What would you do differently?
-What industry sites and blogs do you read regularly?
