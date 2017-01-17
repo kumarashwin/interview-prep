@@ -277,35 +277,48 @@ What is Dependency Injection?
 What are the SOLID principles of Object-oriented development?
 
 ##JavaScript:
-What are global variables?
-Global variables are available throughout your code: that is, the variables have no scope. Local variables scope, on the other hand, is restricted to where it is declared (like within a function). The var keyword is used to declare a local variable or object, while omitting the var keyword creates a global variable.
+**Que sont les variables globales ?**
+> Les variables globales sont des variables qui ont aucune portée (*scope*) et qui sont accéssibles n'importe où dans le code.
 
-Most JavaScript developers avoid globals. One reason why is they're averse to naming conflicts between local and globals, Also, code that depends on globals can be difficult to maintain and test.
+> Par contre, des variable locales ont des portées qui peuvent restreindre leur accésibilité jusqu'aux limites d'où les variables étaient déclarées. Ceci est fait en utilisant le mot-clé 'var' avant le variable pour la déclarer localement.
 
-What is the difference between undefined and null?
-The value of a variable with no value is undefined (i.e., it has not been initialized). Variables can be emptied by setting their value to null. You can test for each using the === (three equal signs) or == (two equal signs) for comparison checking. The big difference is the latter uses coercion, which can have some odd results — it returns true for a null or undefined comparison if they are either.
+**Est-ce qu'il y a des désavantanges à l'utilisation frequente de variables globales ?**
+>- Possibilité de conflits de nommes entre des variables globales et celles qui sont locales.
+- Code qui dépend lourdement sur des variables globales pour fonctionner est difficile à vérifier et maintenir.
 
-What is JavaScript's this keyword?
-JavaScript's this keyword normally refers to the object that owns the method, but it depends on how a function is called. Basically, it points to the currently in scope object that owns where you are in the code. When working within a Web page, this usually refers to the Window object. If you are in an object created with the new keyword, the this keyword refers to the object being created. When working with event handlers, JavaScript's this keyword will point to the object that generated the event.
+**Quelle est la différence entre 'undefined' et 'null' ?**
+> Le valeur d'une variable non-initialisée est 'undefined'.
 
-What is event bubbling?
-Event bubbling describes the behaviour of events in child and parent nodes in the Document Object Model (DOM); that is, all child node events are automatically passed to its parent nodes. The benefit of this method is speed, because the code only needs to traverse the DOM tree once. This is useful when you want to place more than one event listener on a DOM element since you can put just one listener on all of the elements, thus code simplicity and reduction. One application of this is the creation of one event listener on a page's body element to respond to any click event that occurs within the page's body.
+> Par contre, des variables peuvent être vider de leur valeurs en mettant 'null' comme valeur. 
 
-How does JavaScript's prototype-based OOP differentiate it from other class-based languages?
-How do classes in JavaScript differ from those in other languages?
-How do properties of objects work in JavaScript?
-How does inheritance work in JavaScript?
-What is === operator? How is it different from the == operator?
-=== is called as strict equality operator which returns true when the two operands have the same value and are of the same type.
-== only checks for value after type-converting the operands into the 'best' format, according to ECMA specs.
+**Quelle est la significance du mot-clé 'this' en *JavaScript* ?**
+> Le mot-clé 'this' en JavaScript fait référence à l'objet à qui la méthode appartient mais cela dépend de comment la fonction est appelé. Bref, il indique l'objet actuellement en portée qui possède la ligne de code en train d'être traiter.
+> Par exemple, une fonction comme *setInterval* appèlée n'importe où provient dans l'object *Window*. Donc, dans le contenu de cette fonction, 'this' fera référence au *Window*. 
+> En générale, en ce qui concerne des gestionnaires d'événement, 'this' fait référence à l'objet qui a généré l'événement.
+> Par contre, si la ligne de code en train d'être traité fait partie d'un object créé par le mot-clé 'new', 'this' ferait référance à cet object-là.
 
-What is an anonymous function in JavaScript?
-A function that is declared without any named identifier is known as an anonymous function. In general, an anonymous function is inaccessible after its declaration.
+**Qu'est-ce que c'est la propogation d'événement (*event bubbling*)?**
+> En ce qui concernce le DOM (*Document Object Model*), la propogation d'événement (*Event bubbling*) est l'habitude de chaque noeud de passer de mannière automatique chaque événement qu'il traite à son parent.
+> C'est utile parce que comme ça vous n'avez pas besoin de placer plus qu'une gestionnaire d'événement pour attendre des événements qui vont provenir de différents noeuds enfants.
+> Par exemple, vous pouvez mettre un gestionnaire à un élément *table* pour gérér des événement provenant des enfants cellules.
+> Il y a donc des avantages de réutilisation de code et de simplicité mais aussi celle d'une vitesse améliorée vu que le code va traverser seulement une fois l'arborescence DOM.
 
-What is a closure?
-A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
+**Qu'est-ce que c'est l'opérateur '===' et comment diffère-t-il de l'opérateur '==' ?**
+>'===' est le opérateur d'égalité stricte c'est-à-dire qu'il répond *true* (vrai) seulement si les deux opérandes n'ont pas seulement le même valeur mais qu'il sont aussi de même type.
 
-Here is a simple example:
+>Par contre, '==' vérifie seulement si les deux opérandes sont égaux à l'égard de leurs valeurs. S'il y a une différence de types des deux, il transforme le type des deux à un format qui correspond le mieux selon les spécifications ECMA.
+
+**Qu'est-ce que c'est une fonctione anonyme en *JavaScript* ?**
+> Une fonction déclarée sans indentifiant nommé. En gérérale, ces fonctions sont inaccessible après être déclarée.
+
+**Qu'est-ce que c'est une clôture en *JavaScript* ?**
+> Une fermeture ou clôture (en anglais : closure) est une fonction accompagnée de son environnement lexical. L'environnement lexical d'une fonction est l'ensemble des variables non locales qu'elle a capturé, soit par valeur (c'est-à-dire par copie des valeurs des variables), soit par référence (c'est-à-dire par copie des adresses mémoires des variables).
+
+> Une fermeture est donc créée, entre autres, lorsqu'une fonction est définie dans le corps d'une autre fonction et utilise des paramètres ou des variables locales de cette dernière.
+
+>En *JavaScript*, une fermeture peut être passée en argument d'une fonction dans l'environnement où elle a été créée (passée vers le bas) ou renvoyée comme valeur de retour (passée vers le haut).
+
+>Voici un exemple simple des fermetures :
 ```
 var globalVar = "xyz";
 
@@ -324,8 +337,8 @@ var globalVar = "xyz";
     
   })(456);
 })(123);
-```
-In the above example, variables from innerFunc, outerFunc, and the global namespace are all in scope in the innerFunc. The above code will therefore produce the following output:
+``` 
+>Dans l'exemple précédent, les variables *innerFunc*, *outerFunc* et l'espace de nommage sont tous en portée à l'intérieur d'*innerFunc*. Le résult ci-dessous va donc être produit:
 ```
 outerArg = 123
 innerArg = 456
@@ -333,10 +346,11 @@ outerVar = a
 innerVar = b
 globalVar = xyz
 ```
-Why would we wrap the entire content of a JavaScript source file in a function block?
-What is a Promise?
-A promise is a method that eventually produces a value. Instead of passing a function as argument as with callbacks, “Once the result is received from an asynchronous operation then the required function is executed”. The required functions are never passed as arguments to the asynchronous operation. E.g.
-```
+
+** Qu'est-ce que c'est un 'promis' (*Promise*) en *JavaScript* ? **
+> Un promis est une méthode qui produit un valeur événtuellement. Au lieu de passer une fonction comme argument, ce qui est le cas des callbacks, une fois que le résultat est reçu d'une opération asynchrone, le fonction requise est exécutée (normallement placée en queue de la fonction qui la précède)
+> C'est-à-dire, on utilise pas des callbacks pour passer comme arguments à l'opération asynchrone. C'est plus facile de l'expliquer en exemple :
+>```
 callAsyncFunction()
 .then(firstFunction)
 .then(secondFunction)
@@ -344,6 +358,11 @@ callAsyncFunction()
 .then(fourthFunction);
 ```
 
+Why would we wrap the entire content of a JavaScript source file in a function block?
+How does JavaScript's prototype-based OOP differentiate it from other class-based languages?
+How do classes in JavaScript differ from those in other languages?
+How do properties of objects work in JavaScript?
+How does inheritance work in JavaScript?
 What frameworks do you use?
 
 ##TypeScript:
@@ -404,6 +423,11 @@ What frameworks do you use?
 * Tout en *JavaScript*: Bien que le *JavaScript* n'est pas très utile pour construire des applications de traitement intensif et exigeant, l'avantage est quand même considérable qu'on peut construire le *front-end* et le *back-end* tout en *JavaScript* avec NodeJs. Cela peut appliquer même au niveau de la base de données si on utilise des bases de données documentaire comme MongoDb et stocke les données en format JSON.
 	
 **Quelles sont les désavantages ?**
+>- Instabilité : L'API de NodeJs est pas aussi stable comparé à certaines d'autres cadriciels majeurs (Rails, ASP.NET, Django etc.) et il s'avance et change très rapidement et frequemment
+- Défis liès au modèle asynchrone de programmation événementielle : Avec NodeJs il n'y a aucune d'autre option que de maitriser le modèle de programmation asynchrone. Toutefois, celui-ci est souvent plus complexe à mettre en oeuvre que le modèle traditionel de programmation linéaire.
+- Complexité : Il est essentiel d'utiliser des *callbacks* à chaque étape. Ceci entraîne un grande nombre de callbacks imbriqués qui à son tour abouti à une base de code plus complexe.
+- Monofilaire : Présentement, NodeJs se trouve peu adapté à la construction de grandes applications complexe vu qu'il soutein pas de programmation multifilaire (*multi-thread*)
+- Il y a finalement les désavantages liées avec l'utilisation de JavaScript comme votre langue de programmation fondamentalle.
 
 **Où peut-on utilisé le NodeJs ?**
 >* Il est particulièrement bien adapté aux applications Web et certainements ceux qui fonctionnent en temps-réel.
