@@ -334,99 +334,83 @@ innerVar = b
 globalVar = xyz
 ```
 Why would we wrap the entire content of a JavaScript source file in a function block?
-What frameworks do you use?
-
-
-##TypeScript:
-What is TypeScript? Why should we use it?
-JavaScript is the only client side language universally supported by all browsers. But JavaScript is not the best designed language. It’s not a class-based object-oriented language, doesn’t support class based inheritance, unreliable dynamic typing and lacks in compile time error checking. And TypeScript addresses all these problems. In other words, TypeScript is an attempt to “fix” JavaScript problems.
-
-TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language. TypeScript is quite easy to learn and use for developers familiar with C#, Java and all strong typed languages. At the end of day “TypeScript is a language that generates plain JavaScript files.”
-
-What are the pros of TypeScript?
-It helps in code structuring
-Use class based object oriented programming
-Impose coding guidelines
-Offers type checking
-Compile time error checking
-Intellisense
-
-What are some cons of using TypeScript?
-TypeScript is just another way to write JavaScript. It doesn’t fix the problems of JavaScript. It just creates an illusion that it does.
-One more tool to learn.
-TypeScript has dependency on type definition files, if you wish to use any existing JavaScript libraries.
-Quality of type definition files is a concern as how can you be sure the definitions are correct?
-Frequent releases of new versions JavaScript library is also a pain area. Because if their type definition files are not updated then you can’t use them instantly.
-In order to run the application in the browser, a compile step is required to transform TypeScript into JavaScript.
-Web developers are using JavaScript from decades and TypeScript doesn’t bring anything new.
-To use any third party library, definition file is you need. And not all the third party library have definition file available.
-
-##NodeJs:
-What is asynchronous programming? Why is it important in Node?
-Synchronous programming means that, barring conditionals and function calls, code is executed sequentially from top-to-bottom, blocking on long-running tasks such as network requests and disk I/O.
-
-Asynchronous programming means that the engine runs in an event loop. When a blocking operation is needed, the request is started, and the code keeps running without blocking for the result. When the response is ready, an interrupt is fired, which causes an event handler to be run, where the control flow continues. In this way, a single program thread can handle many concurrent operations.
-
-User interfaces are asynchronous by nature, and spend most of their time waiting for user input to interrupt the event loop and trigger event handlers.
-
-Node is asynchronous by default, meaning that the server works in much the same way, waiting in a loop for a network request, and accepting more incoming requests while the first one is being handled.
-
-This is important in JavaScript, because it is a very natural fit for user interface code, and very beneficial to performance on the server.
-
-What does event-driven programming mean?
-In computer programming, event driven programming is a programming paradigm in which the flow of the program is determined by events like messages from other programs or threads. It is an application architecture technique divided into two sections 1) Event Selection 2) Event Handling
-Where can we use node.js?
-Web applications ( especially real-time web apps )
-Network applications
-Distributed systems
-General purpose applications
-
-What is the advantage of using node.js?
-Aynchronous and Event Driven:
-All APIs of Node.js library are aynchronous that is non-blocking. It essentially means a Node.js based server never waits for a API to return data. Server moves to next API after calling it and a notification mechanism of Events of Node.js helps server to get response from the previous API call.
-
-Very Fast:
-Being built on Google Chrome's V8 JavaScript Engine, Node.js library is very fast in code execution.
-
-Single Threaded but highly Scalable:
-Node.js uses a single threaded model with event looping. Event mechanism helps server to respond in a non-bloking ways and makes server highly scalable as opposed to traditional servers which create limited threads to handle requests. Node.js uses a single threaded program and same program can services much larger number of requests than traditional server like Apache HTTP Server.
-
-No Buffering:
-Node.js applications never buffer any data. These applications simply output the data in chunks.
-
-What are the pros and cons of Node.js?
-Pros:
-	If your application does not have any CPU intensive computation, you can build it in Javascript top to bottom, even down to the database level if you use JSON storage object DB like MongoDB.
-	Crawlers receive a full-rendered HTML response, which is far more SEO friendly rather than a single page application or a websockets app run on top of Node.js.
-
-Cons:
-	Any intensive CPU computation will block node.js responsiveness, so a threaded platform is a better approach.
-	Using relational database with Node.js is considered less favourable
-
-What is a Callback?
-Callback is an asynchronous equivalent for a function.
-
-A callback function is called at the completion of a given task. Node makes heavy use of callbacks. All APIs of Node are written is such a way that they supports callbacks.
-
-For example, a function to read a file may start reading file and return the control to execution environment immidiately so that next instruction can be executed. Once file I/O is complete, it will call the callback function while passing the callback function, the content of the file as parameter. So there is no blocking or wait for File I/O. This makes Node.js highly scalable, as it can process high number of request without waiting for any function to return result.
-
-What is callback hell and how can it be avoided?
-Callback hell refers to a coding pattern where there is a lot of nesting of callback functions. The code forms a pyramid like structure and it becomes difficult to debug.
-
-Explain the non-blocking nature of Node?
-If application has to wait for some I/O operation in order to complete its execution any further then the code responsible for waiting is known as blocking code. By providing callback function. Callback function gets called whenever corresponding event triggered.
-
 What is a Promise?
 A promise is a method that eventually produces a value. Instead of passing a function as argument as with callbacks, “Once the result is received from an asynchronous operation then the required function is executed”. The required functions are never passed as arguments to the asynchronous operation. E.g.
-
+```
 callAsyncFunction()
 .then(firstFunction)
 .then(secondFunction)
 .then(thirdFunction)
 .then(fourthFunction);
+```
 
-What is the Event loop?
-Node js is a single threaded application but it support concurrency via concept of event and callbacks. As every API of Node js are asynchronous and being a single thread, it uses async function calls to maintain the concurrency. Node uses observer pattern. Node thread keeps an event loop and whenever any task get completed, it fires the corresponding event which signals the event listener function to get executed.
+What frameworks do you use?
+
+##TypeScript:
+**Qu'est-ce c'est le *TypeScript* ? Pourquoi devrait-on l'utiliser ?**
+> Le *TypeScript* est une langage de programmation développée par Anders Hejlsberg, aussi créateur de C#, entretenu et développé par Microsoft. Elle est un sur-ensemble stricte de *JavaScript* qui ajoute de types statics et un systèmes de programmation objet-orientée avec des classes.
+
+> *TypeScript* a été conçu pour surmonter les défis qui existent avec l'utilisation de *JavaScript* comme l'absense d'un fort système des types, l'absense des classes, la manque de vérification d'erreur au temps de compilation, etc. 
+
+**Quelles sont les avantages de *TypeScript* ?**
+>* Aide à mieux structurer le code
+* Faire disponible un système de programmation objet-orientée fondée sur des classes
+* Permet à mettre en place des lignes directrices de codage
+* Vérification de type
+* Vérification d'erreurs au moment de compilation
+
+**Quelles sont quelques désavantages ?**
+>* *TypeScript* offre une autre façon d'écrire *JavaScript*. Il régle pas finalement les problèmes qui ont toujours existés avec l'utilisation de *JavaScript*
+* Peut-être que vous ne voulez pas disperser vos ressources pour maintenir la connaissance d'une autre langage
+* Dépendances sur de fichiers de définition de type si vous voulez utiliser des bibliothèques qui existent déjà
+* Dépendance sur la définition de types est un problème; comment peut-on être confiant de leur qualités?
+* Faut également garder les définitions à jour.
+* Faut ajouter une autre étape dans le processus de compilation pour transformer le *TypeScript* à *JavaScript*
+* Bien qu'il rend facile certaines choses, *TypeScript* n'ajoute rien de nouveau. Certains parmi vos développeurs ne trouveront rien qu'ils peuvent faire mieux avec *TypeScript*
+
+##NodeJs:
+**Qu'est-ce que c'est la programmation asyncrone ?**
+> Des programmes fonctionnent normalement dans une mannière synchrone c'est-à-dire les lignes de code sont traiter séquentiellement. Des opérations comme lire un fichier ou envoyer une requête à un serveur et faire quelque chose avec la réponse cause un blockage jusqu'au moment où le processus bloquant est terminé.
+
+> Par contre, dans le cas de programmation asynchrone, l'application fontionne dans une boucle d'événement. Quand il y a besoin de faire quelque chose de bloquant, la requête est envoyée et l'application continue à traiter le code qui suit sans se bloquer en attendant le résultat. Quand celui-ci est prêt, une interruption est causée et le gestionnaire d'événement traite le résultat. Dans cette façon, un programme peut traiter plusieurs opérations simultanément.
+
+> Un bon exemple d'une application asynchrone dans la vraie vie: tous les système d'interfaces utilisateur qui, par leur natures, passent la plupart de leur temps en attendant. Une action de l'utilisateur interompra la boucle d'événement et faire fonctionner les gestionnaires d'événement.
+
+**Pourquoi est-elle importante vis-à-vis NodeJs ?**
+> NodeJs est une application monofilaire. Il soutien des processus concurrents par des événements et des callbacks. Il fonctionne donc dans une mannière fondamentallement asynchrone en utilisant le patron de conception d'*Observer*.
+ 
+> Node utilise une boucle d'événement. Celle-ci est la partie d'application qui s'occupe à attendre des interruptions. Par exemple, une interruption est causée par une demande sur le réseau. La boucle continue à accepter plus de telles demandes.
+
+> Une fois qu'une tâche est terminé elle appele le callback associé en passant comme paramètre le résultat de traitement de la demande. Les autres processus ne sont pas bloqués pendant ce temps-là. 
+
+> Chaque API du NodeJs est asynchrone dans telle façon et il est donc non-bloquant dans cette mannière-ci.
+
+**Qu'est-ce que c'est un *callback* ?**
+> Un *callback* est l'équivalent asynchrone d'une fonction c'est-à-dire qu'il est appelé comme une fonction à la fin d'une tâche. Par exemple, une fonction pour lire un fichier peut commencer par lire le fichier et puis retourner la controle à l'environnement tout de suite après tel que l'application peut traiter la prochaîne instruction.
+> Une fois le processus de lecture est terminé la fonction *callback* est appelé avec le contenu du fichier comme paramètre. Il n'y a donc aucun blocage.
+> Cela rend NodeJs très extensible vu qu'il peut traiter un grand nombre de requêtes sans attendant la réponse d'une fonction ou d'autre.
+
+**Qu'est-ce que cela veut dire, le *callback hell* ?**
+>Ce terme fait référence au modèle de codage où il y a plusieurs fonctions callbacks imbriquées et où le code prend la forme d'une pyramide et fini par se rendre difficile à débouger.
+
+**Que signifie la programmation événementielle (*Event-driven programming*) ?**
+>La programmation événementielle est un paradigme de programmation dans lequel le flux de l'application est déterminé par des événements comme des messages des autres programmes.
+
+**Quelles sont les avantages liées à l'utilisation de NodeJs ?**
+>* Asynchrone et événementielle : Chaque API du NodeJs est asynchrone et non-bloquant. En effect, un serveur NodeJs attend jamais pour la réponse d'un API; il continue au traitement du API suivant et utilise la boucle d'événement pour gérér la réponse de l'appel à l'API précédent.
+* Rapide : Grâce à moteur V8 de Google Chrome, Node.js est très rapide à l'exécution du code.
+* Monofilaire mais très extensible : Même si Node.js est monofilaire, il employe une boucle d'événement. Cela permet le serveur à répondre dans une façon non-bloquant. Donc, le serveur reste beaucoup plus extensible et aussi plus performant que les applications traditionelles de serveur comme Apache qui créent de multiples fils pour gérér les requêtes.
+* Pas de tampon: Node.js n'utilise pas de tampon. Par contre, l'application sorte les données dans des *chunks*.
+* Tout en *JavaScript*: Bien que le *JavaScript* n'est pas très utile pour construire des applications de traitement intensif et exigeant, l'avantage est quand même considérable qu'on peut construire le *front-end* et le *back-end* tout en *JavaScript* avec NodeJs. Cela peut appliquer même au niveau de la base de données si on utilise des bases de données documentaire comme MongoDb et stocke les données en format JSON.
+	
+**Quelles sont les désavantages ?**
+
+**Où peut-on utilisé le NodeJs ?**
+>* Il est particulièrement bien adapté aux applications Web et certainements ceux qui fonctionnent en temps-réel.
+* Applications de réseau
+* Applications de systèmes distribués
+* Autres types d'application généraux
+
 
 ##Testing/Debugging:
 Can you explain what Test-Driven Development is?
