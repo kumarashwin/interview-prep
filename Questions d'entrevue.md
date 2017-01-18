@@ -9,17 +9,30 @@
 **Quels sont vos objectifs?**
 > Mon but c'est d'obtenir un travail stable où je peux continuer à m'améliorer de façon professionnelle et personnelle; où je peux contribuer à quelque chose que je trouve important pour la société. Je cherche un travail qui peut me faire évoluer, et pas seulement sur le plan financier.
 
-**Quelles sont vos qualités?**
 **Quelles sont vos faiblesses?**
 > Premièrement, le français n'est pas ma langue maternelle. Cela dit, ça m'a pas empêché de travailler dans un centre d'appel, majoritairement en français. J'ai parfois besoin de plus de temps pour bien m'exprimer mais je comprends très bien quand on me parle.
 
 > Deuxièmement, j'ai encore du mal à estimer combien de temps va me prendre une tâche de programmation. Même ma copine est d'accord. En fait c'est une des raisons pour laquelle j'ai entrepris mon projet de programmation le plus important: une application de gestion du temps.
-
+ 
+**Quelles sont vos plus grandes qualités?**
+>- Adaptabilité: tout ce que j'ai fait dans ma vie est lié à ma capacité à m'adapter: mon déménagement au Canada à partir de l'Inde, mon déménagement au Québec; l'apprentissage du français et l'adaptation à la culture de travail du Québec; mon changement de carrière vers l'assurance après avoir fini mon diplôme en informatique et maintenant mon retour à l'informatique. À chaque étape, j'ai réussi à m'adapter rapidement à mon nouvel environnement. Mes succès proviennent de cette capacité à m'adapter, ainsi qu'à ma persistance, ma deuxième plus grande qualité.
+>- Persistance: J'ai étudié la programmation par moi-même depuis les 8 derniers mois. La preuve de ma persistance; vous pouvez la voir sur mon profil de github qui montre que j'ai maintenu un rythme de travail constant depuis le 1er juin de l'année dernière. Aussi, je suis déménagé au Québec le 14 août 2014. À partir de la première semaine de septembre, jusqu'à la fin de l'année, j'ai pris des cours de français de 9h à 3h avec le ministère de l'immigration et de 5h45 à 10h30 avec le ministère de l'éducation, toute la semaine. C'est une autre preuve de ma persistance, dans mon objectif d'atteindre un niveau avancé en français le plus rapidement possible.
+>- Je ne me laisse pas décourager: Tout au long de mon apprentissage et de mon projet d'application, j'ai fait face à des difficultés. À chaque étape, j'avais un peu peur d'arriver à un problème que je ne pourrais pas résoudre et qu'il me faudrait abandonner mon projet de devenir programmeur. Quand j'ai fait face à des problèmes, j'ai juste gardé mon calme et été patient et j'ai toujours fini par y arriver. 
+   
 **Qu’est-ce qui est le plus important dans votre vie ?**
+> Tranquilité: j'essaie de garder mon esprit calme et de passer du temps dans des environnements qui me calment: par exemple, j'aime vraiment passer du temps à la bibliothèque. Apprentissage: Je passe la plupart de mon temps libre à lire des articles et des livres: j'aime lire sur les développements technologiques et les enjeux géopolitiques. D'ailleurs, je suis des cours sur coursera et Khan Academy: mon but est de finir une spécialisation en sciences des données sur coursera et je veux faire tous le parcours en mathématiques de Khan Academy. J'ai pris une pause de ces deux projets-là pour me concentrer sur la programmation C#/JavaScript et mon application Discipline.  
+
 **Pourquoi avez-vous quitté votre emploi?**
+> Quand je suis déménagé au Québec, j'avais deux objectifs: m'intégrer à la culture de mon nouveau chez-moi et retourner à la programmation. Comme j'étais déjà familier avec le milieu de travail de l'assurance, j'y suis resté le temps de perfectionner mon français et de bien m'installer à Montréal. Quand ça a été fait, j'ai décidé de quitter le domaine de l'assurance pour me concentrer à mon deuxième objectif de revenir à la programmation. 
+
 **Qu’avez-vous fait depuis votre dernier emploi ?**
-**Quel poste aimeriez-vous occuper dans 5 ans ?**
+> Sauf une petite pause pour une retraite de méditation de 10 jours, les derniers 8 mois ont été consacré à l'étude de la programmation. J'ai commencé par suivre des cours en ligne sur PluralSight. Après quelques mois, j'ai continué avec la lecture et les exercices de livres pour m'améliorer en JavaScript et en ASP.NET. Finalement, il y a environ deux mois, j'ai commencé à développer une application pour intégrer mes nouvelles connaissances et avoir l'expérience de mener un projet du début à la fin. L'application que j'ai créée est en ligne en version alpha: elle n'est pas parfaite, mais elle montre l'étendue de mes connaissances. 
+
 **Pourquoi changez-vous d'emploi constamment ?**
+>Mon dernier changement d'emploi était pour revenir à la programmation, qui était le domaine de mes études. Le changement précédent était pour m'établir à Montréal et apprendre le français.
+
+**Quel poste aimeriez-vous occuper dans 5 ans ?**
+> Je me vois plus m'orienter vers la spécialisation technique en développement dorsale et je m'intéresse à la science des données. Dans 5 ans, j'aimerais occuper un poste qui combine la connaissance approfondie des deux domaines. J'aimerais occuper un poste technique spécialisé plutôt qu'un poste de gestion.
 
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
