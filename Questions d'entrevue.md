@@ -240,55 +240,6 @@ How would you model user authorization, user profiles and permissions in a datab
 
 What's the difference between a left join and an inner join?
 
-##Pratique:
-Write your own linked list class without using the built-in classes.
-Write your own hashtable class without using the built-in classes.
-Write a class that represents a binary tree. Write a method that traverses all nodes of the tree.
-Write a method to perform a binary search on an array without using built-in methods.
-Draw a database schema for a blog. Each user only has one blog, each blog has many categories, each category has many posts, and each post can belong to more than one category. Ask your applicant to write queries to pull specific information out.
-
-##Algorithmes:
-How do you find out if a number is a power of 2? And how do you know if it is an odd number?
-How would you change the format of all the phone numbers in 10,000 static html web pages?
-How would you write a function to reverse a string? And can you do that without a temporary string?
-In an array with integers between 1 and 1,000,000 one value is in the array twice. How do you determine which one?
-Can you name an example of a recursive solution that you created?
-What is the last thing you learned about algorithms from a book, magazine or web site?
-
-##Data Structures:
-What is a pointer?
-How do you find the middle item in a linked list?
-What is a hashtable?
-Which is faster: finding an item in a hashtable or in a sorted list?
-What is the difference between a queue and a stack?
-Stacks refer to a list in which all items are accessed and processed on the Last-In-First-Out (LIFO) basis. In a stack, elements are inserted (push operation) and deleted (pop operation) from the same end called top.
-
-Queues refer to a list in which insertion and deletion of an item is done on the First-In-First-Out (FIFO) basis. The items in a queue are inserted from the one end, called the rear end, and are deleted from the other end, called the front end of the queue.
-What is the difference between storing data on the heap vs. on the stack?
-
-##OOP:
-What is abstraction?
-What is inheritance?
-What is polymorphism?
-What is encapsulation?
-What is the difference between a class and an object/instance?
-What is a constructor?
-What is a destructor?
-What is an abstract class?
-What is operator overloading?
-What is method overloading?
-What is method overriding?
-How does overriding differ from overloading?
-How does pass by value differ from pass by reference?
-What is 'this'?
-What is 'super'?
-What is boxing?
-What are design patterns?
-Which design patterns have you used, and in what situations?
-What is a singleton?
-What is Dependency Injection?
-What are the SOLID principles of Object-oriented development?
-
 ##JavaScript:
 **Que sont les variables globales ?**
 > Les variables globales sont des variables qui ont aucune portée (*scope*) et qui sont accéssibles n'importe où dans le code.
@@ -371,12 +322,50 @@ callAsyncFunction()
 .then(fourthFunction);
 ```
 
-Why would we wrap the entire content of a JavaScript source file in a function block?
-How does JavaScript's prototype-based OOP differentiate it from other class-based languages?
-How do classes in JavaScript differ from those in other languages?
-How do properties of objects work in JavaScript?
-How does inheritance work in JavaScript?
-What frameworks do you use?
+**Pourquoi devrait-on entourer le contenu d'un fichier de code source *JavaScript* dans un bloc fonction ?**
+> Cette pratique fait une fermeture (*closure*) autour du content du fichier. En effect, il crée donc un espace de nommage privé et donc aide à éviter des conflits potentiels entre des modules et bibliothèques différentes.
+
+**Qu'est-ce que c'est l'OOP orientée prototype ?**
+>La programmation orientée prototype est un style de programmation orientée objet dans lequel l'héritage est mis en oeuvre par cloner objets déjà existants qui servent comme prototypes. Il y a deux façon de créer de nouvels objets : du vide ou par cloner un objet qui existe déjà.
+
+> Dans le premier cas, si vous voulez créer un objet vous le faites simplement sans ayant besoin d'un définition de classe. C'est au moment de la création que vous décrivez un objets, ses propriétes, son comportement. Cette approche de création d'objet rendre la programmation orientée prototype concrètement différent de la programmation orientée classe.
+
+> Par contre, pour le deuxième cas, si vous voulez faire un héritage classique, vous clonez le parent d'un objet qui existe déjà. Ensuite, vous pouvez transformer cet nouvel objet par rapport à vos besoins; vous pouvez ajouter des propriétes etc. Vous recevez donc non seulement une sous-classe mais aussi une instance à la même fois.
+
+**Comment l'OOP orientée prototype de *JavaScript* diffère-t-elle des autres langages orientée classe ? Comment fonctionne l'héritage en *JavaScript* ?**
+>Les objets dans des langages orientées prototype héritent directement d'autres objets. Par contre, dans les languages orientées classe, l'héritage est fondé sur les rélations enfant-parent entre les classes.
+
+>Dans les langages orientées classe, l'héritage et l'instanciation sont deux choses complètement différentes. Quand vous définez une sous-classe, vous êtes en train de créer en effet une nouvelle classe qui hérite les membres et le comportement de la classe parent et puis vous étendez la sous-classe. Quand vous voulez manipuler l'état et les données de cette nouvelle, il faut l'instancier. Seulement après cette étape pouvez-vous la considérer comme un objet.
+
+>Par contre, dans le cas d'OOP prototypique l'héritage et l'instanciation se ressemblent. Il y a aucune notion de classe; donc, vous la définez jamais. Il y a que des objets. Vous l'instanciez au moment de leur création.
+
+>Par exemple, *Fruit* et *Pomme* sont respectivement les classes parent et enfant.
+
+>Dans les langages classique, *Fruit* est une abstraction et peut pas être instanciée. *Pomme* est une classe concrète qui peut être instanciée en prenant toutes les propriétées de Fruit en s'étendant avec d'autres spécifique à son état en tant que *Pomme*.
+
+>Par contre, dans les langages prototypique, *Fruit* n'est pas une abstraction, elle est un objet concrète comme *Pomme*. Les deux peuvent faire des actions (fonctions), être passés comme arguments, se faire placer dans un tableau, etc. Vous pouvez quand même avoir un objet *Pomme* qui hérite les propriétées de *Fruit* en clonant son prototype. 
+
+**Quelles sont les avantages d'OOP prototypique par rapport à l'OOP orientée classe ?**
+>- Beaucoup moins d'effort pour créer de nouvelles 'classes'
+- Pas besoin d'écrire beaucoup de code complexe pour cloner les fonctionnalités des objets; l'objet déjà existant peut être utiliser et étendre.
+- Héritage multiple et plus facile vu qu'on peut cloner les propriétés des prototypes différents dans un objet.
+- Le comportement d'un objet peut être facilement changé au moment d'exécution
+- Des 'classes' sont moins longue en termes de code écrit.
+
+**Quelles sont quelques désavantages ?**
+>- Moins performant : Chaque accés à une propriété exige de traverser des chaînes de prototypes jusqu'au moment où la propriété requise est trouvée.
+- Absense d'un système de vérification de type.
+- Le remaniement du code est plus difficile vu que chaque fois vous créez votre propre hiérarchie d'héritage.
+- Un peu moins familier aux gens déjà habitués aux systèmes traditionnels qui mis en oeuvre l'OOP orientée classe.
+
+** Quels cadriciels utilisez-vous ? Pourquoi n'utilisez-vous aucun cadriciel (Angular, React) ?**
+>Je ne suis pas du tout opposé à l'utilisation des cadriciels. Cela dit, il y a certaines raisons clées pour lesquelles je les ai évité jusqu'à maintenant :
+
+>- Mon but principal était de bien apprendre le JavaScript. L'opinion générale que j'ai trouvé en ligne par rapport aux cadriciels mentionnait qu'ils vous tiennent la main un peu trop dans les meilleures conditions; dans les pires, ils vous enferment à penser dans un paradigme limité et qu'ils vous entraînent à coder dans une mannière très rigide et spécifique. Au moins dans les premières étapes, je voulais me garder libre de telles contraintes même si cela me risquait de reinventer la roue; je voulais apprendre de mes erreurs.  
+- Deuxièmement, en ce qui concerne le monde du *JavaScript*, des cadriciels apparaient et disparaient très souvent. En 2016, React a connu beaucoup de popularité. En 2014, c'était le cas pour Angular. On parle plus de Knockout ni de Backbone. Personne sait que va devenir populaire demain. Selon moi, c'était un meilleur investissement de mon temps d'apprendre les régles fondamentaux qui sous-tendent tous ces outils. Pour moi, c'était clair qu'il faillait mettre tout mon focus en fortifiant mes aptitude en *JavaScript*.
+- Finalement, je voulais pas m'enliser dans les demandes d'établir un environnement de dévéloppement: Grunt, Gulp, Webpack, Babel etc. Je voulais passer mon temps autant que possible en développant mes aptitudes en programmation.
+
+>Dans les fond, j'ai rien contre apprendre un nouvau cadriciel si le demande existe. Pour une entrevue d'une organisation basée à Toronto qui m'a étée transférer d'un ami qui travaille là-bas, j'ai étudié les éléments fondamentaux de React pendant quelques heures. J'ai passé cette étape de l'entrevue mais ils ont finalement choisi quelqu'un de Toronto. Bref, j'ai aucun souci à apprendre rapidement quelque chose de nouveau.
 
 ##TypeScript:
 **Qu'est-ce c'est le *TypeScript* ? Pourquoi devrait-on l'utiliser ?**
@@ -473,6 +462,57 @@ What did you do that worked out particularly well?
 What would you do differently?
 What industry sites and blogs do you read regularly?
 
+
+##Pratique:
+Write your own linked list class without using the built-in classes.
+Write your own hashtable class without using the built-in classes.
+Write a class that represents a binary tree. Write a method that traverses all nodes of the tree.
+Write a method to perform a binary search on an array without using built-in methods.
+Draw a database schema for a blog. Each user only has one blog, each blog has many categories, each category has many posts, and each post can belong to more than one category. Ask your applicant to write queries to pull specific information out.
+
+##Algorithmes:
+How do you find out if a number is a power of 2? And how do you know if it is an odd number?
+How would you change the format of all the phone numbers in 10,000 static html web pages?
+How would you write a function to reverse a string? And can you do that without a temporary string?
+In an array with integers between 1 and 1,000,000 one value is in the array twice. How do you determine which one?
+Can you name an example of a recursive solution that you created?
+What is the last thing you learned about algorithms from a book, magazine or web site?
+
+##Data Structures:
+What is a pointer?
+How do you find the middle item in a linked list?
+What is a hashtable?
+Which is faster: finding an item in a hashtable or in a sorted list?
+What is the difference between storing data on the heap vs. on the stack?
+What is the difference between a queue and a stack?
+Stacks refer to a list in which all items are accessed and processed on the Last-In-First-Out (LIFO) basis. In a stack, elements are inserted (push operation) and deleted (pop operation) from the same end called top.
+
+Queues refer to a list in which insertion and deletion of an item is done on the First-In-First-Out (FIFO) basis. The items in a queue are inserted from the one end, called the rear end, and are deleted from the other end, called the front end of the queue.
+
+
+##OOP:
+What is abstraction?
+What is inheritance?
+What is polymorphism?
+What is encapsulation?
+What is the difference between a class and an object/instance?
+What is a constructor?
+What is a destructor?
+What is an abstract class?
+What is operator overloading?
+What is method overloading?
+What is method overriding?
+How does overriding differ from overloading?
+How does pass by value differ from pass by reference?
+What is 'this'?
+What is 'super'?
+What is boxing?
+What are design patterns?
+Which design patterns have you used, and in what situations?
+What is a singleton?
+What is Dependency Injection?
+What are the SOLID principles of Object-oriented development?
+
 ##C#:
 What is the difference between a struct and a class?
 Class:
@@ -482,7 +522,7 @@ Classes support inheritance.
 Variables of a class can be assigned as null.
 Class can contain constructor/destructor. 
 
-	Structure:
+Structure:
 A structure is a value type.
 In structure, memory is allocated on stack.
 Structures do not support inheritance.
