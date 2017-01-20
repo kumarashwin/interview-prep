@@ -311,7 +311,7 @@ innerVar = b
 globalVar = xyz
 ```
 
-** Qu'est-ce que c'est un 'promis' (*Promise*) en *JavaScript* ? **
+**Qu'est-ce que c'est un 'promis' (*Promise*) en *JavaScript* ? **
 > Un promis est une méthode qui produit un valeur événtuellement. Au lieu de passer une fonction comme argument, ce qui est le cas des callbacks, une fois que le résultat est reçu d'une opération asynchrone, le fonction requise est exécutée (normallement placée en queue de la fonction qui la précède)
 > C'est-à-dire, on utilise pas des callbacks pour passer comme arguments à l'opération asynchrone. C'est plus facile de l'expliquer en exemple :
 >```
@@ -358,7 +358,7 @@ callAsyncFunction()
 - Le remaniement du code est plus difficile vu que chaque fois vous créez votre propre hiérarchie d'héritage.
 - Un peu moins familier aux gens déjà habitués aux systèmes traditionnels qui mis en oeuvre l'OOP orientée classe.
 
-** Quels cadriciels utilisez-vous ? Pourquoi n'utilisez-vous aucun cadriciel (Angular, React) ?**
+**Quels cadriciels utilisez-vous ? Pourquoi n'utilisez-vous aucun cadriciel (Angular, React) ?**
 >Je ne suis pas du tout opposé à l'utilisation des cadriciels. Cela dit, il y a certaines raisons clées pour lesquelles je les ai évité jusqu'à maintenant :
 
 >- Mon but principal était de bien apprendre le JavaScript. L'opinion générale que j'ai trouvé en ligne par rapport aux cadriciels mentionnait qu'ils vous tiennent la main un peu trop dans les meilleures conditions; dans les pires, ils vous enferment à penser dans un paradigme limité et qu'ils vous entraînent à coder dans une mannière très rigide et spécifique. Au moins dans les premières étapes, je voulais me garder libre de telles contraintes même si cela me risquait de reinventer la roue; je voulais apprendre de mes erreurs.  
@@ -437,9 +437,53 @@ callAsyncFunction()
 * Applications de systèmes distribués
 * Autres types d'application généraux
 
+##Projet:
+**Decrivez votre projet ?**
+>Il s'appèle Discipline: un utilisateur peut surveiller le temps qu'il passe quotidiennement en faisant n'importe quel activité: la lecture, le travail, jouer aux jeux-vidéos, à un bar, à son université, par exemple.
+
+>Il peut créer et modifier ses propres activités et les effacer s'il ne croit pas en avoir besoin. Il peut ajouter un budget; chaque fois qu'il accède la page d'accueil, l'application lui dirait combien de temps il a déjà passé en faisant l'activité actuelle, s'il un budget, combiens de temps il lui reste.
+
+> Il peut également faire apparaître une graphique animée qui montrerait comment son temps a été passés à travers d'une période de 7 jours. Les différentes actvitées sont surlignées avec leurs propres couleurs. Si vous passez le souris sur la rectangle d'une activité, l'application vous montrerait des détails comme la duration de l'activité, il a eu lieu de quelle heure à quelle heure etc. Vous pouvez également allez dans le futur ou dans le passé pour voir les tendances.
+
+>Cliquer sur une des rectangle d'activité dans la graphique vous montrerait une autre graphique; cette fois comprennant seulement les heures passant en faisant l'activité sur laquel vous avez cliqué tout à l'heure, encore à travers d'une période de 7 jours. Si vous avez ajouté un budget, une ligne montrerait à quel point le budget a été dépassé ou non, pour chaque jour. Disons que vous voulez limiter le temps vous jouez aux jeux-vidéos, vous pouvez remarquer si vous avez fait du progrès au cours du temps. 
+
+>C'est une application quand même rudimentaire, bâti sur ASP.NET MVC et hébergée sur le service infonuagique d'Azure. Le *front-end* a été développer avec un peu de Bootstrap et jQuery principalement parce que le moteur de modèle d'ASP.NET dépend sur eux pour la fonctionalité AJAX. Le système de graphique que j'ai créé utilise aucunes bibliotheques ou cadriciels, même pas jQuery. Je l'ai fait plus ou moins parce que je voulais apprendre du début ce qu'un système comme ça exige par rapport à la programmation.
+
+>D'autres caractéristiques prévues incluent: un système d'inscription ouvert au monde, un système de vérification par courriel, une interface pour des cellulaires, un système de budget hebdomadaire pas juste quotidien, page d'acceuil avec instructions, etc. 
+
+**Qu'avez vous faites qui a bien fonctionné ?**
+> Un des aspects les plus difficiles du développement parce qu'il était tout à fait neuf pour moi, c'était le système de graphique. Je l'ai développé à partir de zéro sans aucune inspiration d'ailleurs. Au bout, il fonctionne bien. Les principes fondamentaux que j'ai appris d'*Eloquent JavaScript* m'ont aidé beaucoup.
+
+> Une autre chose dont je suis fier :  tout ce qui j'ai appris du livre Pro ASP.NET, j'ai appliqué dans une mannière ou l'autre dans mon projet. C'est un grand cardiciel, l'ASP.NET. J'ai pris chaque opportunié qui m'a été présenté pour concrétiser ce que j'e venais d'apprendre du livre, même s'il entrainait à développer des fonctions qui finalement n'étaient pas incluses dans la version finale. Pour la majorité , j'étais capable de mettre en pratique ce que j'ai appris.
+
+**Que feriez-vous différemment ?**
+>À un moment donné, j'ai refait les aspect *CRUD* de l'application en utilisant *WebAPI* qui est un cadriciel d'*ASP.NET* qui fonctionne similairement à Node.js. C'est-à-dire, il vous permet d'interagir directement avec les requêtes/réponses HTTP et donc facilite la création d'un service REST-esque. Je l'ai pas poursuivi mais j'ai bien aimé cette technologie particulière sa simplicité.
+
+>Si je le fais encore, je développerais probablement l'application avec *WebAPI*. Même la première ça aurait été facile sauf que j'ai appris que c'était plus important par rapport le marché pour les développeurs de stack Microsoft de bien apprendre ASP.NET MVC. Donc, j'y ai mis tout mon focus.
+
+>Selon moi, une implementation en *Node.js* serait intéressante pour des raisons similaires mais en plus parce que une expérience où on code en *JavaScript* du début à la fin serait intéressante.
+
+**Que faites-vous pour vous tenir au courant ?**
+> Au début, j'ai suivi des cours de Pluralsight qui est connu pour la qualité de ses cours. Plusieurs d'entre eux concernent le stack de Microsoft et donc c'était utile pour moi. À côté j'ai essayé de poursuivi mes cours de science de données sur Coursera mais j'ai temporairement abandonné cet effort afin de concentrer sur la programmation. 
+
+> Je mentionne ce fait parce que je trouve Pluralsight une très bonne ressource pour se tenir au courant. En particulier, je trouve ça plus utile de suivre un cours qui me donne de l'expérience réel de l'utilisation d'un outil ou de certaine technologie au lieu de lire d'articles sur le cadriciel populaire cette semaine.
+
+>Étant donné qu'il y a un prix pour s'y abonner, je l'ai pas renouveller quand je me suis mis à lire *Eloquent JavaScript* et *Pro ASP.NET* et lorsque je faisaint mon projet, mais j'ai envir d'y faire une fois je trouve un peu plus de stabilité par rapport à un emploi.
+
+> D'ailleurs, je suis inscrit au sub-reddit de programmation, à quelques blogues à propos de *JavaScript* sur Medium.com, à quelques chaînes YouTube comme JsConf et NewCircle pour voir leur conférences. J'ai un compte sur Hackerrank ou je code parfois pour m'amuser.
 
 ##Testing/Debugging:
-Can you explain what Test-Driven Development is?
+**Qu'est-ce que c'est le développement piloté par les tests ?**
+>Le développement piloté par les tests est un processus où le développement est fait en fonction d'un certain nombre de tests. Il implique d'écrire tous les tests avant de commencer n'importe quel développement. Cette technique permet justement de développer l'application pour faire en sorte que tous les tests écrits réussissent.
+
+>Les avantages d'une telle approche est qu'il vous permettre de rendre le code plus simple, plus solide et d'éviter de développer n'importe quoi. Vous n'avez plus besoin d'écrire que le code nécessaire pour passer vos tests et rien d'autre. Vous pouvez aussi vous assurer de ne pas développer des fonctionnalités qui ne sont pas requises en écrivant vos tests en premier et en les lançant ; si les tests réussissent la fonctionnalité existe déjà, nul besoin de l'écrire.
+
+>Comme le développement va être piloté par des tests vous aurez plus de code à écrire et l'application sera un peu plus longue à développer, mais le code finalement produit sera plus sûr, car il aura été correctement testé et que ces tests seront documentés. Avec une bonne structure de tests, vous vous assurez de livrer une application sans bogues, qui prennent en général du temps à corriger après coup.
+
+>Cela signifie que si vous devez ajouter une nouvelle fonctionnalité à un programme existant, vous pouvez simplement la développer et lancer ensuite tous les tests pour vous assurer qu'elle fonctionne et qu'aucun effet de bord n'est apparu.
+
+>La façon dont le développement piloté par les tests est effectué va conduire le développeur à écrire du code plus extensible, flexible et modulaire. Cette méthode de travail nécessite que le développeur crée de petites portions de code et se concentre sur les classes pour ne les relier entre elles qu'à la fin.
+
 How do you test for the quality of your code?
 How do you make sure that your code handles different kinds of error situations?
 How do you make sure that your code is both safe and fast?
@@ -455,39 +499,6 @@ What measures have you taken to make your software products more easily maintain
 How can you debug a system in a production environment, while it is being used?
 Can you name reasons why maintenance of software is the biggest/most expensive part of an application’s life cycle?
 How can you make sure that team members know who changed what in a software project?
-
-##D'autres:
-Describe the project you've worked on?
-What did you do that worked out particularly well?
-What would you do differently?
-What industry sites and blogs do you read regularly?
-
-
-##Pratique:
-Write your own linked list class without using the built-in classes.
-Write your own hashtable class without using the built-in classes.
-Write a class that represents a binary tree. Write a method that traverses all nodes of the tree.
-Write a method to perform a binary search on an array without using built-in methods.
-Draw a database schema for a blog. Each user only has one blog, each blog has many categories, each category has many posts, and each post can belong to more than one category. Ask your applicant to write queries to pull specific information out.
-
-##Algorithmes:
-How do you find out if a number is a power of 2? And how do you know if it is an odd number?
-How would you change the format of all the phone numbers in 10,000 static html web pages?
-How would you write a function to reverse a string? And can you do that without a temporary string?
-In an array with integers between 1 and 1,000,000 one value is in the array twice. How do you determine which one?
-Can you name an example of a recursive solution that you created?
-What is the last thing you learned about algorithms from a book, magazine or web site?
-
-##Data Structures:
-What is a pointer?
-How do you find the middle item in a linked list?
-What is a hashtable?
-Which is faster: finding an item in a hashtable or in a sorted list?
-What is the difference between storing data on the heap vs. on the stack?
-What is the difference between a queue and a stack?
-Stacks refer to a list in which all items are accessed and processed on the Last-In-First-Out (LIFO) basis. In a stack, elements are inserted (push operation) and deleted (pop operation) from the same end called top.
-
-Queues refer to a list in which insertion and deletion of an item is done on the First-In-First-Out (FIFO) basis. The items in a queue are inserted from the one end, called the rear end, and are deleted from the other end, called the front end of the queue.
 
 
 ##OOP:
@@ -513,42 +524,68 @@ What is a singleton?
 What is Dependency Injection?
 What are the SOLID principles of Object-oriented development?
 
+##Pratique:
+Write your own linked list class without using the built-in classes.
+Write your own hashtable class without using the built-in classes.
+Write a class that represents a binary tree. Write a method that traverses all nodes of the tree.
+Write a method to perform a binary search on an array without using built-in methods.
+Draw a database schema for a blog. Each user only has one blog, each blog has many categories, each category has many posts, and each post can belong to more than one category. Ask your applicant to write queries to pull specific information out.
+
+##Algorithmes:
+How do you find out if a number is a power of 2? And how do you know if it is an odd number?
+How would you change the format of all the phone numbers in 10,000 static html web pages?
+How would you write a function to reverse a string? And can you do that without a temporary string?
+In an array with integers between 1 and 1,000,000 one value is in the array twice. How do you determine which one?
+Can you name an example of a recursive solution that you created?
+What is the last thing you learned about algorithms from a book, magazine or web site?
+
+##Data Structures:
+What is a pointer?
+How do you find the middle item in a linked list?
+What is a hashtable?
+Which is faster: finding an item in a hashtable or in a sorted list?
+What is the difference between storing data on the heap vs. stack?
+What is the difference between a queue and a stack?
+>Stacks refer to a list in which all items are accessed and processed on the Last-In-First-Out (LIFO) basis. In a stack, elements are inserted (push operation) and deleted (pop operation) from the same end called top.
+
+>Queues refer to a list in which insertion and deletion of an item is done on the First-In-First-Out (FIFO) basis. The items in a queue are inserted from the one end, called the rear end, and are deleted from the other end, called the front end of the queue.
+
 ##C#:
 What is the difference between a struct and a class?
-Class:
-A class is a reference type.
-While instantiating a class, CLR allocates memory for its instance in heap.
-Classes support inheritance.
-Variables of a class can be assigned as null.
-Class can contain constructor/destructor. 
+>Class:
+>- A class is a reference type.
+- While instantiating a class, CLR allocates memory for its instance in heap.
+- Classes support inheritance.
+- Variables of a class can be assigned as null.
+- Class can contain constructor/destructor. 
 
-Structure:
-A structure is a value type.
-In structure, memory is allocated on stack.
-Structures do not support inheritance.
-Structure members cannot have null values.
-Structure does not require constructor/destructor and members can beinitialiazed automatically.
+>Structure:
+>-A structure is a value type.
+- In structure, memory is allocated on stack.
+- Structures do not support inheritance.
+- Structure members cannot have null values.
+- Structure does not require constructor/destructor and members can be initialized automatically.
 
 Difference between abstract class and an interface?
-Abstract Class:
-A class can extend only one abstract class
-The members of abstract class can be private as well as protected.
-Abstract classes should have subclasses
-Any class can extend an abstract class.
-Methods in abstract class can be abstract as well as concrete.
-There can be a constructor for abstract class.
-The class extending the abstract class may or may not implement any of its method.
-An abstract class can implement methods. 
+>Abstract Class:
+>- A class can extend only one abstract class
+- The members of abstract class can be private as well as protected.
+- Abstract classes should have subclasses
+- Any class can extend an abstract class.
+- Methods in abstract class can be abstract as well as concrete.
+- There can be a constructor for abstract class.
+- The class extending the abstract class may or may not implement any of its method.
+- An abstract class can implement methods. 
 
-Interface
-A class can implement several interfaces
-An interface can only have public members.
-Interfaces must have implementations by classes
-Only an interface can extend another interface.
-All methods in an interface should be abstract
-Interface does not have constructor.
-All methods of interface need to be implemented by a class implementing that interface.
-Interfaces cannot contain body of any of its method.
+>Interface
+>- A class can implement several interfaces
+- An interface can only have public members.
+- Interfaces must have implementations by classes
+- Only an interface can extend another interface.
+- All methods in an interface should be abstract
+- Interface does not have constructor.
+- All methods of interface need to be implemented by a class implementing that interface.
+- Interfaces cannot contain body of any of its method.
 
 What are collections and generics?
 What is a delegate?
