@@ -12,7 +12,11 @@
 **Quelles sont vos faiblesses?**
 > Premièrement, le français n'est pas ma langue maternelle. Cela dit, ça m'a pas empêché de travailler dans un centre d'appel, majoritairement en français. J'ai parfois besoin de plus de temps pour bien m'exprimer mais je comprends très bien quand on me parle.
 
-> Deuxièmement, j'ai encore du mal à estimer combien de temps va me prendre une tâche de programmation. Même ma copine est d'accord. En fait c'est une des raisons pour laquelle j'ai entrepris mon projet de programmation le plus important: une application de gestion du temps.
+> Deuxièmement, pendant que je faisais mon projet, j'ai trouver que j'avais du mal à estimer combien de temps une tâche de programmation me prendrait. J'ai conclu qu'il était dû à quelques raisons.
+
+>Une raison importante cela arrivait pendant que je faisais mon projet est que je m'inquietais pas de mon temps. Je dirais que c'était aussi car je suis un nouveau programmeur.
+
+>C'était quand même un peu normale parce que presque quotidiennement je decouvrais quelque chose de nouveau. C'est la première fois que je fais la programmation à tel niveau ou c'est beaucoup plus pratiques que ce qui était le cas de mes études universitaires. Je n'ai aucune doute que ça a déjà améliorer beaucoup au cours du temps et que ça va continuer à améliorer.
  
 **Quelles sont vos plus grandes qualités?**
 >- Adaptabilité: tout ce que j'ai fait dans ma vie est lié à ma capacité à m'adapter: mon déménagement au Canada à partir de l'Inde, mon déménagement au Québec; l'apprentissage du français et l'adaptation à la culture de travail du Québec; mon changement de carrière vers l'assurance après avoir fini mon diplôme en informatique et maintenant mon retour à l'informatique. À chaque étape, j'ai réussi à m'adapter rapidement à mon nouvel environnement. Mes succès proviennent de cette capacité à m'adapter, ainsi qu'à ma persistance, ma deuxième plus grande qualité.
@@ -34,6 +38,48 @@
 **Quel poste aimeriez-vous occuper dans 5 ans ?**
 > Je me vois plus m'orienter vers la spécialisation technique en développement dorsale et je m'intéresse à la science des données. Dans 5 ans, j'aimerais occuper un poste qui combine la connaissance approfondie des deux domaines. J'aimerais occuper un poste technique spécialisé plutôt qu'un poste de gestion.
 
+##Travail:
+**Comment travaillez-vous en équipe ? Comment réglez-vous des problèmes avec un collègue? Donnez un exemple vécu.**
+> Most of my jobs haven't required me to work in team towards achieving project goals in the way I think this job would. The last time I worked in such a team was when I was in university. At that time it was simply a matter of dividing up portions of the work to be done for presentations. Even then, I've never had any problems.
+
+> I have always gotten along really well with my colleagues and I would even say that I have never faced anything I would amount to as being a conflict. Some of my coworkers even became friends outside of work and I'm sure if you picked at random the people I've worked with, you would only hear positive things. If you look at my résumé in fact, you'll notice that I worked for two seasons at H&R Block as an office leader. Everyone there really liked me and from what I heard, they put pressure on their boss to get me hired for that position if ever I would have decided to reapply, which is what happened the second time around. I have a great relationship with my boss from Sussex Insurance and call her to wish her for Christmas and such; she would take me back in a heart-beat if I wanted it.
+
+>Even if it might be a bit of a newer experience for me to work in a team that together delivers solutions and meets goals, I am sure of my ability to keep calm and adapt to the situation, and that I won't have any issues getting along with people or my supervisor. 
+
+**Quand étiez-vous le plus satisfait dans votre dernier emploi? De quoi êtes-vous le plus fier ?**
+>Not one particular thing, but I was happy when I was able to do my job right and I saw meaning in what I did.
+
+>When it wasn't my boss remarking on something positive as she looked over statistics of my performance but a client who really appreciated that I spent a few extra moments with them on the phone to really make sure they understood some insurance concept no one had really taken the time to explain to them before. Often, it was to my detriment in terms of my performance since it was time I wasn't doing a sale.
+
+>Or some other times, when I was able to find through the same observations and investigation something we had forgotten to take into account which resulted in savings for the client.
+
+>Essentially, those moments when I felt I could connect my work to delivering real meaning to another person out there. 
+
+**Quand étiez-vous le moins satisfait dans votre dernier emploi?**
+>The things I liked least about the job were regarding the very nature of it, in some ways. I really don't like being surrounded by noise; noise was a constant at that job. Either you were talking to clients all day, or people around you were and it was constantly noisy. I don't so much mind conversations or discussions; I'm always watching TED talks on YouTube so I actually like a fruitful discussion. But the constant noise with no space to even think; that wasn't for me. Incidentally, I've heard that a lot of programmers listen to music when they code; that's something I can never do.
+
+>Another aspect is what I realized about myself at that job: I'm much closer to the mind-state of being perhaps an engineer or a researcher than being a salesperson. I rather work diligently and have something to show for my efforts than to promote something others have done to an client in hopes that they would be willing to pay for it.
+
+>Regardless, the job was still a great learning opportunity. It helped tremendously towards perfecting my french. I just feel sure now that I couldn't work again in a call center.
+
+**De quoi êtes-vous le plus fier (carrière) ?**
+>I have been fortunate to meet so many people from so many different walks of life, indeed I am fortunate to have been in so many places to have learned from so many different world views.
+
+>To me it's still amazing that I'm someone who grew up in a suburb of Mumbai who could have followed a very generic career-track like that of my school mates back in India. Either get an IT job back home, or move to the States and get an IT job.
+
+>I did not even come to Canada initially for an IT job. I came because I wanted to go to a world-famous animation school in Vancouver in pursuit of my passion from when I was a teenager. Considering the economy in 2009, that option would have been disastrous. I was fortunate to be raised with the kind of insight needed to take risks with alternative paths. So I jumped from an education in IT to a career in insurance; from living in a city of over 20 million people to a small agricultural town.
+
+>I learned a lot there, meeting all kinds of people, whether as colleagues or as clients. And the same has transpired after moving here, to Montreal.
+
+>So to answer your question, I'm most proud of what my career has given me not in terms of aptitude or skills, but in terms of wisdom.
+
+**Trois choses positives que votre employeur précédent dirait?**
+>What I've heard overtime from my various bosses is that there are some key positive traits that seem to always be present:
+
+>- Open to criticism : Maybe this is linked to why I have never really had a team conflict. In relationships in general, whether professional or personal, I will be the first to say during an argument that I fully understand that I don't hold all the keys and that I'm willing to reach a decision that is of mutual benefit to all parties. Although I do get disappointed, as with anyone else, when my supervisor takes me into a small room to tell me about some dismal aspect of my recent performance, I'm never so disheartened as to give up. I don't back down from asking questions that would help me improve performance and avoid a negative situation in the future.
+- Always learning : Whether on the job or during my free time, learning something; anything, is my favorite hobby. I was studying to pass the insurance licensing exams on the side when I was going through university; then french while I was in my insurance career. I was slowly getting back into programming with the Data Science course when I was working at RBC. And I feel like I have used my time since quitting my last job very productively when it comes to learning. I am confidant that for a job like programming where learning all the time is essentially a career pre-requisite, this is a good skill to have.
+- Always refactoring the process for efficiency : I'm always looking for ways to make whatever process I'm part of as efficient as possible. I was the fastest agent at Sussex insurance when it came to processing policies because I had managed to break down the steps in such a fashion that each question I would ask the client would be related to the last one; that each explanation would be the same way. The client would better be able to connect his situation to the questions as they would come in a serial, connected order rather than disjointed as the insurance forms and application often seem to make it. This was a very important trait in a job where speed was of essence; our offices were located inside supermarkets and for insurance agencies in BC, the company I worked for did a particularly high number of auto insurance transactions. This is a personal trait that I've carried forward and that I try to apply in ever process I'm a part of.
+
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
 **Que connaissez-vous de notre organisation ?**
@@ -42,12 +88,6 @@
 **Vous n’avez aucune expérience dans ce domaine.**
 **Pourquoi devrait-on vous embaucher? Pourquoi vous et pas les autres candidats?**
 
-##Travail:
-**Comment travaillez-vous en équipe ? Comment réglez-vous des problèmes avec un collègue? Donnez un exemple vécu.**
-**De quoi êtes-vous le plus fier (dernier emploi) ?**
-**De quoi êtes-vous le plus fier (carrière) ?**
-**Quand étiez-vous le plus satisfait dans votre emploi?**
-**Trois choses positives que votre employeur précédent dirait?**
 
 ##D'autres:
 **Disponibilité?**
