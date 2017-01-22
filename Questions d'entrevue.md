@@ -12,11 +12,9 @@
 **Quelles sont vos faiblesses?**
 > Premièrement, le français n'est pas ma langue maternelle. Cela dit, ça m'a pas empêché de travailler dans un centre d'appel, majoritairement en français. J'ai parfois besoin de plus de temps pour bien m'exprimer mais je comprends très bien quand on me parle.
 
-> Deuxièmement, pendant que je faisais mon projet, j'ai trouver que j'avais du mal à estimer combien de temps une tâche de programmation me prendrait. J'ai conclu qu'il était dû à quelques raisons.
+> Deuxièmement, je trouvais pendant que je faisais mon projet que j'avais du mal à estimer combien de temps une tâche de programmation me prendrait. Je sais que c'est une qualité très importante pour un développeur.
 
->Une raison importante cela arrivait pendant que je faisais mon projet est que je m'inquietais pas de mon temps. Je dirais que c'était aussi car je suis un nouveau programmeur.
-
->C'était quand même un peu normale parce que presque quotidiennement je decouvrais quelque chose de nouveau. C'est la première fois que je fais la programmation à tel niveau ou c'est beaucoup plus pratiques que ce qui était le cas de mes études universitaires. Je n'ai aucune doute que ça a déjà améliorer beaucoup au cours du temps et que ça va continuer à améliorer.
+>Je n'ai pas encore trouvé la meilleure solution. Je suis ouvert aux solutions de mes futurs collégues à ce sujet-là. Je me suis déjà beaucoup amélioré au cours du développement du projet. Je sais qu'avec de l'expérience, ça va continuer à s'améliorer.
  
 **Quelles sont vos plus grandes qualités?**
 >- Adaptabilité: tout ce que j'ai fait dans ma vie est lié à ma capacité à m'adapter: mon déménagement au Canada à partir de l'Inde, mon déménagement au Québec; l'apprentissage du français et l'adaptation à la culture de travail du Québec; mon changement de carrière vers l'assurance après avoir fini mon diplôme en informatique et maintenant mon retour à l'informatique. À chaque étape, j'ai réussi à m'adapter rapidement à mon nouvel environnement. Mes succès proviennent de cette capacité à m'adapter, ainsi qu'à ma persistance, ma deuxième plus grande qualité.
@@ -47,20 +45,22 @@
 >Even if it might be a bit of a newer experience for me to work in a team that together delivers solutions and meets goals, I am sure of my ability to keep calm and adapt to the situation, and that I won't have any issues getting along with people or my supervisor. 
 
 **Quand étiez-vous le plus satisfait dans votre dernier emploi? De quoi êtes-vous le plus fier ?**
->Not one particular thing, but I was happy when I was able to do my job right and I saw meaning in what I did.
+> J'étais le plus satifait quand j'aidais réellement le client à qui je parlais en faisant mon travail du mieux que je pouvais.
 
->When it wasn't my boss remarking on something positive as she looked over statistics of my performance but a client who really appreciated that I spent a few extra moments with them on the phone to really make sure they understood some insurance concept no one had really taken the time to explain to them before. Often, it was to my detriment in terms of my performance since it was time I wasn't doing a sale.
+> Par exemple, quand un client appréciait que je prenne quelques minutes de plus pour bien leur expliquer et m'assurer qu'ils comprennent un concept en assurance que personne n'avait pris le temps de leur expliquer. Souvent, c'était à mon désavantage de le faire parce que ma performance était mesurée en terme de ventes et que ça n'améliorait pas nécessairement mes statistiques.
 
->Or some other times, when I was able to find through the same observations and investigation something we had forgotten to take into account which resulted in savings for the client.
+> D'autres fois, en prenant le temps de bien écouter les clients, j'arrivais à trouver des informations qui leur permettait de payer moins cher pour leurs primes d'assurance.
 
->Essentially, those moments when I felt I could connect my work to delivering real meaning to another person out there. 
+> En résumé, les moments qui me rendaient le plus fier étaient liés à apporter quelque chose de positif à quelqu'un d'autre par mon travail.
 
 **Quand étiez-vous le moins satisfait dans votre dernier emploi?**
->The things I liked least about the job were regarding the very nature of it, in some ways. I really don't like being surrounded by noise; noise was a constant at that job. Either you were talking to clients all day, or people around you were and it was constantly noisy. I don't so much mind conversations or discussions; I'm always watching TED talks on YouTube so I actually like a fruitful discussion. But the constant noise with no space to even think; that wasn't for me. Incidentally, I've heard that a lot of programmers listen to music when they code; that's something I can never do.
+>D'abord, l'environnement de travail dans un centre d'appel est très bruyant: tout le monde parle au téléphone autour de soi. Aussi, la nature de ce type de travail nécéssite qu'on passe la journée à parler à des clients au téléphone.
 
->Another aspect is what I realized about myself at that job: I'm much closer to the mind-state of being perhaps an engineer or a researcher than being a salesperson. I rather work diligently and have something to show for my efforts than to promote something others have done to an client in hopes that they would be willing to pay for it.
+> Les conversations avec les clients ne me dérangent pas en tant que tel. J'apprécie pouvoir échanger avec d'autres dans un environnement de travail. Cela dit, j'apprécie quand même mieux de traivailler en silence. Je sais que plusieurs programmeurs écoutent de la musique en travaillant: pour moi, ça ne fonctionne pas.
 
->Regardless, the job was still a great learning opportunity. It helped tremendously towards perfecting my french. I just feel sure now that I couldn't work again in a call center.
+> Malgré tout, ce travail a comporté plein d'opportunités d'apprentissage. Entre autre, j'ai appris à communiquer efficacement. Avoir l'opportunité de discuter en français avec autant de gens différents a aussi contribué à améliorer mon français.
+
+>J'ai aussi appris à propos de moi-même à travers mon travail dans le domaine de l'assurance est que j'ai plus l'état d'esprit qui me permettrait d'être ingénieur ou technicien plutôt que celui d'un vendeur. Je préfère travailler de façon diligente pour réaliser un produit fini plutôt que d'avoir à vendre les produits finis des autres: je ne me sens pas tout à fait à mon aise dans le rôle de la vente où je devais essayer de montrer la valeur des produits d'assurance en espérant que les clients voudraient bien les acheter.
 
 **De quoi êtes-vous le plus fier (carrière) ?**
 >I have been fortunate to meet so many people from so many different walks of life, indeed I am fortunate to have been in so many places to have learned from so many different world views.
@@ -82,6 +82,16 @@
 
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
+>The position I am hoping to get; back-end developer for the City of Montreal, is the best job I could hope to get; not only as a starting point for my career as a developer but also as something I can see myself doing for a long time.
+
+>The projects you mention on the internet which will be the domain of the IT dept. are the kind I'm deeply passionate about. I follow tech blogs such as Wired, The Verge, and I keep myself informed on issues such as open access to public data, transit data (géo-trafic), portable cameras on law enforcement officers etc.
+
+>I have always wanted the city I live into be a pioneer in implementing such projects. I love the fact that, for example, we were the first ones to have something like BIXI in our city. I am an avid user of BIXI and I'm already registered for the next year. I want to be a part of making projects like that happen.
+
+>It is also a considerable advantage that you have at the City of Montreal to make such projects happen. I watched the video you have up on YouTube where your CIO, M. Perras mentionne que vous voulez devenier une des organisations les plus performante en TI et que vous avez les ressources pour atteindre vos objectifs.
+ 
+> And of course, I am absolutely in love with this city. I stayed in BC for over five years and was still never able to call it home the way I was able to with Montreal within the first few weeks of coming here. Last year, not even two years after having moved here, I purchased a condo. To do something to improve the city I call home; as you say, do something qui va avoir un impact réel et direct sur ses citoyens; that really would be my perfect job.
+ 
 **Que connaissez-vous de notre organisation ?**
 **Pouvez-vous me préciser ce que vous avez compris du poste ?**
 **Qu’est ce qui selon vous va vous poser des difficultés à ce poste ?**
