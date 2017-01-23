@@ -63,22 +63,26 @@
 >J'ai aussi appris à propos de moi-même à travers mon travail dans le domaine de l'assurance est que j'ai plus l'état d'esprit qui me permettrait d'être ingénieur ou technicien plutôt que celui d'un vendeur. Je préfère travailler de façon diligente pour réaliser un produit fini plutôt que d'avoir à vendre les produits finis des autres: je ne me sens pas tout à fait à mon aise dans le rôle de la vente où je devais essayer de montrer la valeur des produits d'assurance en espérant que les clients voudraient bien les acheter.
 
 **De quoi êtes-vous le plus fier (carrière) ?**
->I have been fortunate to meet so many people from so many different walks of life, indeed I am fortunate to have been in so many places to have learned from so many different world views.
+>En ayant travaillé à plusieurs endroits, j'ai rencontré beaucoup de gens différents provenant de milieux assez divers. J'ai appris beaucoup de ces personnes qui avaient des vues différentes sur le monde.
 
->To me it's still amazing that I'm someone who grew up in a suburb of Mumbai who could have followed a very generic career-track like that of my school mates back in India. Either get an IT job back home, or move to the States and get an IT job.
+>Je trouve toujours incroyable qu'en ayant grandi dans une banlieue de Mumbai, je me suis rendu ici. J'aurais pu suivre un chemin très générique en restant là-bas, comme la plupart de mes collègues à l'école qui y sont restés: soit trouver du travail là-bas en informatique ou déménager aux États-Unis pour faire exactement la même chose.
 
->I did not even come to Canada initially for an IT job. I came because I wanted to go to a world-famous animation school in Vancouver in pursuit of my passion from when I was a teenager. Considering the economy in 2009, that option would have been disastrous. I was fortunate to be raised with the kind of insight needed to take risks with alternative paths. So I jumped from an education in IT to a career in insurance; from living in a city of over 20 million people to a small agricultural town.
+>La vrai raison pour laquelle je suis déménagé au Canada était parce que je voulais aller dans une école d'animation très reconnue à Vancouver. Considérant les conditions économiques en 2009, cette option-là aurait été assez désastreuse.
 
->I learned a lot there, meeting all kinds of people, whether as colleagues or as clients. And the same has transpired after moving here, to Montreal.
+>J'ai considéré de façon réaliste les risques et d'avoir finalement choisi un chemin moins risqué que celui-là. J'avais choisi l'informatique comme domaine d'étude. Par contre, les conditions d'emploi en TI en Colombie-Britannique m'ont poussé à aller vers l'assurance. Celle-ci m'a permis de rester au Canada.
 
->So to answer your question, I'm most proud of what my career has given me not in terms of aptitude or skills, but in terms of wisdom.
+>À travers ce parcours-là et en prenant des risques calculés, j'ai rencontré plein de personnes différentes, que ce soit dans ma carrière en assurance comme collègues et comme clients. La même chose est arrivée quand je suis déménagé à Montréal par la suite.
+
+>En résumé, ce dont je suis le plus fier dans ma carrière jusqu'à maintenant n'a pas vraiment de lien avec un talent ou des compétences particulières, mais le fait que mon parcours m'a permis d'évoluer au contact de personnes différentes de moi, ce qui je crois, en toute humilité, m'a donné un peu plus de sagesse et de prudence dans ma façon d'aborder plein de choses de la vie.
 
 **Trois choses positives que votre employeur précédent dirait?**
->What I've heard overtime from my various bosses is that there are some key positive traits that seem to always be present:
+> De plusieurs patrons, j'ai eu souvent des commentaires positifs similaires relativement à mon travail:
 
->- Open to criticism : Maybe this is linked to why I have never really had a team conflict. In relationships in general, whether professional or personal, I will be the first to say during an argument that I fully understand that I don't hold all the keys and that I'm willing to reach a decision that is of mutual benefit to all parties. Although I do get disappointed, as with anyone else, when my supervisor takes me into a small room to tell me about some dismal aspect of my recent performance, I'm never so disheartened as to give up. I don't back down from asking questions that would help me improve performance and avoid a negative situation in the future.
-- Always learning : Whether on the job or during my free time, learning something; anything, is my favorite hobby. I was studying to pass the insurance licensing exams on the side when I was going through university; then french while I was in my insurance career. I was slowly getting back into programming with the Data Science course when I was working at RBC. And I feel like I have used my time since quitting my last job very productively when it comes to learning. I am confidant that for a job like programming where learning all the time is essentially a career pre-requisite, this is a good skill to have.
-- Always refactoring the process for efficiency : I'm always looking for ways to make whatever process I'm part of as efficient as possible. I was the fastest agent at Sussex insurance when it came to processing policies because I had managed to break down the steps in such a fashion that each question I would ask the client would be related to the last one; that each explanation would be the same way. The client would better be able to connect his situation to the questions as they would come in a serial, connected order rather than disjointed as the insurance forms and application often seem to make it. This was a very important trait in a job where speed was of essence; our offices were located inside supermarkets and for insurance agencies in BC, the company I worked for did a particularly high number of auto insurance transactions. This is a personal trait that I've carried forward and that I try to apply in ever process I'm a part of.
+>- Ouvert à la critique: Ceci explique probablement que je n'aie jamais vraiment eu un conflit dans le travail en équipe. Dans les relations que j'ai en général, qu'elles soient personnelles ou professionnelles, je suis souvent le premier à admettre dans une discussion que je suis conscient de ne pas avoir toutes les réponses et que je suis prêt à trouver une solution qui convient à tous. Même si recevoir des critiques n'est pas toujours agréable, quand je reçois des commentaires sur ma performance de façon constructive ou même de façon plus ou moins constructive, ça ne me déstabilise jamais au point de me décourager. J'écoute le plus attentivement possible pour bien comprendre, je pose des questions pour être sûr d'avoir les outils pour m'améliorer et pour éviter de refaire les mêmes erreurs.
+
+>- J'aime apprendre : Que ce soit au travail ou pendant mon temps libre, mes intérêts tournent toujours autour d'un apprentissage ou un autre. J'ai étudié pour me certifier en assurance pendant que j'étais à l'université en plus de mes cours; j'ai appris le français pendant que je travaillais en assurance. Pendant que je travaillais à RBC à Montréal, j'ai recommencé tranquillement à retourner vers l'informatique en suivant un cours de Data Science en ligne. Je crois que les  derniers mois ont été bien utilisés en termes d'apprentissages.
+
+>- J'essaie toujours d'optimiser chaque processus pour le rendre plus efficient : Par exemple, j'étais l'agent d'assurance le plus rapide à Sussex Insurance parce que j'avais réordonné les questions du questionnaires de façon à ce qu'elles coulent mieux: chaque question était liée à la précédente pour qu'elles aient plus de sens pour le client et j'avais une façon uniforme d'expliquer chacune des questions. Les clients étaient mieux capables de suivre le processus et de comprendre le contexte, plutôt que de faire face à plein de questions désordonnées comme elles se trouvaient dans le questionnaire. C'était essentiel parce qu'on était souvent encombré des clients vu que les bureaux de cette compagnie sont plus souvent situé à l'intérieur des supermarchés.
 
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
@@ -94,7 +98,19 @@
  
 **Que connaissez-vous de notre organisation ?**
 **Pouvez-vous me préciser ce que vous avez compris du poste ?**
+>Selon votre annonce pour ce poste, je comprends que vous cherchez un développeur diplômé en informatique qui a une bonne connaissance du stack JavaScript c'est-à-dire quelqu'un qui comprendre comment développer des microservices RESTs sur un back-end Node.js.
+
+>Je présume également que vous pensez à utiliser TypeScript comme votre principale langage de développement. Donc, je devine que vous allez refaire votre portail Web peut-être tout en Node.js ? 
+
+>Et bien, je vois aussi que votre préférerais quelqu'un qui peut aussi constater avoir de l'expérience en Python. Étant donné que l'annonce mentionne des projets d'objets connectés, j'ai présumé que c'était pour cette raison vous cherchez quequ'un avec cette expérience.
+
+>Selon d'autres points de l'annonce, je comprends que vous cherchez quelqu'un qui sait bien comment faire du développement piloté par des tests et qui est confortable de livrer des projets sur des plate-formes de virtualisation comme Docker; quelqu'un qui sait comment faire l'intégration continue et cetera.
+
 **Qu’est ce qui selon vous va vous poser des difficultés à ce poste ?**
+>En tant que développeur débutant, je prévois quelques difficulté la prémière fois que je confronterai l'envergure de vos projets. Cependant, j'étais nerveux la première fois quand j'ai fait face à mon propre projet; quand le tableau était complètement vide. Au cours de temps et en fait, très rapidement, je m'y suis habitué. Voilà pourquoi je suis également confiant que même s'il serait la première fois que je vais travailler avec plusieurs d'autres développeurs sur une base de code massive, que je vais être capable à relever au défi.
+
+>En même temps, vu que j'ai travaillé seul jusqu'à présent, j'ai jamais eu le besoin des outils comme Slack. De plus, j'ai gardé le déploiment de mes propres projets assez simples que j'ai jamais dû utiliser beacoup de techniques DevOps. Donc, c'est là où je serais un peu faible au début. Mais j'ai aucun souci car je peux constater ma capacité d'apprendre des nouvelles technologies assez rapidement.
+
 **Vous n’avez aucune expérience dans ce domaine.**
 **Pourquoi devrait-on vous embaucher? Pourquoi vous et pas les autres candidats?**
 
