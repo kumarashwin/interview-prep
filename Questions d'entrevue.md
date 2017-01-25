@@ -86,41 +86,61 @@
 
 ##Eux:
 **Pourquoi voulez-vous travailler ici?**
->The position I am hoping to get; back-end developer for the City of Montreal, is the best job I could hope to get; not only as a starting point for my career as a developer but also as something I can see myself doing for a long time.
+> Le poste que je souhaite avoir; développeur dorsale pour la Ville de Montréal, est le meilleur emploi que je peux souhaiter avoir. Non seulement, je crois que ce serait un très bon point de départ pour ma carrière mais c'est aussi un poste que je peux me voir remplir pour très longtemps.
 
->The projects you mention on the internet which will be the domain of the IT dept. are the kind I'm deeply passionate about. I follow tech blogs such as Wired, The Verge, and I keep myself informed on issues such as open access to public data, transit data (géo-trafic), portable cameras on law enforcement officers etc.
+> Les projets qui sont mentionnés sur votre site internet et dans vos vidéos comme en développement et à développer sont de ceux qui me passionnent le plus. Je suis les blogues technologiques comme Wired et The Verge et je me tiens informé sur des sujets comme l'accès ouvert aux données public, aux données de géo-traffic, aux caméras de surveillance intégrés dans l'uniforme des agents de la paix, etc. 
 
->I have always wanted the city I live into be a pioneer in implementing such projects. I love the fact that, for example, we were the first ones to have something like BIXI in our city. I am an avid user of BIXI and I'm already registered for the next year. I want to be a part of making projects like that happen.
+>J'ai toujours voulu vivre dans une ville pionière face à ce type de projets. J'adore le fait, par exemple, que Montréal était la ville de naissance du BIXI. Je suis un enthousiaste de BIXI et j'ai déjà renouvellé mon abonnement pour l'an prochain! Je veux contribuer à des projets de ce genre-là, qui améliorent la qualité de vie des citoyens, par exemple.
 
->It is also a considerable advantage that you have at the City of Montreal to make such projects happen. I watched the video you have up on YouTube where your CIO, M. Perras mentionne que vous voulez devenier une des organisations les plus performante en TI et que vous avez les ressources pour atteindre vos objectifs.
- 
-> And of course, I am absolutely in love with this city. I stayed in BC for over five years and was still never able to call it home the way I was able to with Montreal within the first few weeks of coming here. Last year, not even two years after having moved here, I purchased a condo. To do something to improve the city I call home; as you say, do something qui va avoir un impact réel et direct sur ses citoyens; that really would be my perfect job.
+>C'est aussi un avantage considérable d'avoir la ville de Montréal qui appuie des projets de développement aussi importants. J'ai écouté votre vidéo sur Youtube où votre CIO, M. Perras, mentionne que vous voulez devenir une des organisation les plus performantes en TI et que vous avez les ressources pour atteindre ces objectifs. J'aimerais vraiment faire partie de ces ressources-là! 
+
+> Aussi, je suis tombé complètement amoureux de cette ville. J'ai vécu en Colombie Britannique pendant plus de 5 ans et je n'ai jamais été capable de me sentir vraiment chez moi. Ici, ça m'a pris quelques semaines et je me sentais à la maison. L'an dernier, j'ai acheté un condo, ce que je n'avais jamais considéré ailleurs qu'ici. Faire quelque chose qui améliorerait la ville où je me sens chez moi, comme vous le dites, faire quelque chose qui va avoir un impact réel et direct pour les citoyens, ce serait vraiment mon emploi idéal.
  
 **Que connaissez-vous de notre organisation ?**
+> Je n'ai pas trouvé de sous-portail particulier de votre équipe de TI sur le site Web de la vile de Montréal. En ayant lu ce qui est sur le site Web de *Montréal, ville inteligente* je devine que votre équipe participe grandement à rendre notre ville de plus en plus << intelligente>>.
+
+>Je présume qu'il y a beaucoup de projets parmi les 70 mis-en-ligne dans lesquels votre équipe joue un rôle très actif. Je comprends que ceux qui concerne ce poste de développeur dorsale comprennent le projet du développement des APIs et celui d'accés aux données ouvertes.
+
+>J'ai regardé la vidéo que vous avez mis sur votre chaîne YouTube où votre CIO, M. Perras mentionne que vous voulez devenier une des organisations les plus performante en TI et que vous avez les ressources pour atteindre vos objectifs.
+
+>En considerant que vous allez remplir plus de cent postes, vous avez des projets intéressant à lancer et gérér.
+
 **Pouvez-vous me préciser ce que vous avez compris du poste ?**
->Selon votre annonce pour ce poste, je comprends que vous cherchez un développeur diplômé en informatique qui a une bonne connaissance du stack JavaScript c'est-à-dire quelqu'un qui comprendre comment développer des microservices RESTs sur un back-end Node.js.
+>Selon votre annonce pour ce poste, je comprends que vous cherchez un développeur diplômé en informatique qui a une bonne connaissance du stack JavaScript, c'est-à-dire quelqu'un qui comprend comment développer des microservices RESTs sur un back-end Node.js.
 
->Je présume également que vous pensez à utiliser TypeScript comme votre principale langage de développement. Donc, je devine que vous allez refaire votre portail Web peut-être tout en Node.js ? 
+>Je présume également que vous pensez à utiliser TypeScript comme votre principale langage de développement. Donc, je devine que vous allez peut-être refaire votre portail Web entièrement en Node.js ? 
 
->Et bien, je vois aussi que votre préférerais quelqu'un qui peut aussi constater avoir de l'expérience en Python. Étant donné que l'annonce mentionne des projets d'objets connectés, j'ai présumé que c'était pour cette raison vous cherchez quequ'un avec cette expérience.
+>Et bien, je vois aussi que votre préférence se dirige vers quelqu'un qui peut aussi constater avoir de l'expérience en Python. Étant donné que l'annonce mentionne des projets d'objets connectés, j'ai présumé que c'était pour cette raison vous cherchez quequ'un avec cette expérience.
 
 >Selon d'autres points de l'annonce, je comprends que vous cherchez quelqu'un qui sait bien comment faire du développement piloté par des tests et qui est confortable de livrer des projets sur des plate-formes de virtualisation comme Docker; quelqu'un qui sait comment faire l'intégration continue et cetera.
 
 **Qu’est ce qui selon vous va vous poser des difficultés à ce poste ?**
->En tant que développeur débutant, je prévois quelques difficulté la prémière fois que je confronterai l'envergure de vos projets. Cependant, j'étais nerveux la première fois quand j'ai fait face à mon propre projet; quand le tableau était complètement vide. Au cours de temps et en fait, très rapidement, je m'y suis habitué. Voilà pourquoi je suis également confiant que même s'il serait la première fois que je vais travailler avec plusieurs d'autres développeurs sur une base de code massive, que je vais être capable à relever au défi.
+>En tant que développeur débutant, je prévois quelques difficulté la prémière fois que je confronterai l'envergure de vos projets. Cependant, j'étais nerveux la première fois quand j'ai fait face à mon propre projet; quand la page était complètement vide. Au cours du temps, et en fait, très rapidement, je m'y suis habitué. Voilà pourquoi je suis également confiant que même si ce serait la première fois que je travaillerais avec plusieurs autres développeurs sur une base de code massive, je vais être capable de relever ce défi.
 
->En même temps, vu que j'ai travaillé seul jusqu'à présent, j'ai jamais eu le besoin des outils comme Slack. De plus, j'ai gardé le déploiment de mes propres projets assez simples que j'ai jamais dû utiliser beacoup de techniques DevOps. Donc, c'est là où je serais un peu faible au début. Mais j'ai aucun souci car je peux constater ma capacité d'apprendre des nouvelles technologies assez rapidement.
+>En même temps, vu que j'ai travaillé seul jusqu'à présent, je n'ai jamais eu besoin d'outils comme Slack. De plus, j'ai gardé le déploiement de mes propres projets assez simples; je n'ai jamais dû utiliser beaucoup de techniques DevOps. Donc, c'est là où je serais un peu faible au début. Mais j'ai aucun souci car je peux constater ma capacité d'apprendre des nouvelles technologies assez rapidement.
 
 **Vous n’avez aucune expérience dans ce domaine.**
+>En tant que débutant, j'ai quelques avantages; j'ai pas encore pris de mauvaises habitudes de codage. Je suis ouvert à me former sur comment faire des choses comme vous voudriez; je n'ai pas encore d'habitudes que je ne peux pas abandonner.
+
+>En plus, bien que vous faites des entrevues avec d'autres personnes avec de l'expérience dans le domaine, aussitôt que j'ai vu que vous cherchiez certaines connaissances comme celle de TypeScript et des bases de données NoSQL, je me suis embarqué tout de suite pour me familiariser avec ces technologies.
+
+>J'ai été capable d'aller de zéro à un niveau plus élèvé en quelques jours. La preuve de ce que j'ai accompli est disponible sur mon blogue. Bref, je peux rapidement apprendre le technologies requises.
+
 **Pourquoi devrait-on vous embaucher? Pourquoi vous et pas les autres candidats?**
 
+>Tout d'abord, je doute qu'il y ait autant de candidats aussi enthousiastes à travailler avec vous. Est-ce que quelqu'un d'autre a pris le temps de créer un site web complet pour vous convaincre de l'embaucher?
+
+>Vous devriez me choisir parce que vous allez avoir du mal à trouver quelqu'un d'aussi motivé et aussi intéressé à obtenir cet emploi; pas pour le salaire ou pour la stabilité, mais parce que travailler pour la Ville de Montréal est significatif pour moi.
+
+> Je crois que c'est tout à votre avantage de choisir quelqu'un comme moi, qui est nouveau dans l'industrie et que vous n'aurez pas peur de perdre après un an ou deux, après les avoir formés. Je ne suis pas intéressé à partir de Montréal: je me suis établi ici et j'ai acheté une propriété. Même si je pouvais obtenir un travail mieux rémunéré aux États-Unis ou ailleurs au Canada, je resterais ici, parce que j'aime vivre dans cette ville.
+
+>Si j'obtiens un emploi pour travailler pour la ville, je peux me voir y rester à long terme. 
 
 ##D'autres:
 **Disponibilité?**
 > Comme je n'ai pas d'emploi présentement, je peux commencer d'ici quelques jours si vous en avez besoin. Toutefois, comme j'ai étudié presque sans arrêt pendant les 8 derniers mois, je préfèrerais une pause de quelques semaines avant le début de mon emploi, pour arriver frais et dispo. Comme je suis très enthousiaste à travailler dans votre équipe, je suis prêt à en discuter avec vous pour trouver une date qui soit optimale pour tous.  
 
 **Avez-vous des questions à nous poser ?**
-
 
 #Questions techniques
 
